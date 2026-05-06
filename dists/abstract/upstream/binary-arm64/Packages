@@ -1,0 +1,22 @@
+Package: motd-news-config
+Source: base-files
+Version: 1:14utile6
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 52
+Breaks: base-files (<< 11ubuntu11)
+Replaces: base-files (<< 11ubuntu11)
+Priority: optional
+Section: admin
+Filename: pool/upstream/b/base-files/motd-news-config_14utile6_all.deb
+Size: 38150
+SHA256: aa2b80bf61f36e38c30206d7f94eeaaf76409b1be45557f393d1612264e9f999
+SHA1: 6d1584c2991e47703059dd84705d27defb1b028c
+MD5sum: b08288589d4c188ea40cfe635ef0dde9
+Description: Configuration for motd-news shipped in base-files
+ This package contains the configuration read by the motd-news script
+ shipped in the base-files package.
+ .
+ Install this package if you want motd-news to be enabled.
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
