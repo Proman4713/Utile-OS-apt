@@ -1,0 +1,26 @@
+Codename: abstract
+Date: Wed, 06 May 2026 00:53:44 UTC
+Architectures: amd64
+Components: main universe
+Description: Official Repository for Abstract Assembly
+MD5Sum:
+ 2ff44d2b6abaf0b98fdcef7e0f202ccd 437 main/binary-amd64/Packages
+ 1f306c9fc30bf8d753d2185527a5a68e 331 main/binary-amd64/Packages.gz
+ 4340adc97e6625742b42782a1ae7c8f3 91 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
+ 12139642ae24e2e9456725234853d6fd 95 universe/binary-amd64/Release
+SHA1:
+ d66c6d7e97eec94d6f8a02e57610edd10e06d79a 437 main/binary-amd64/Packages
+ 206f7f93af8fbc80abf5b43421c0820035216eb7 331 main/binary-amd64/Packages.gz
+ 147fdfa39480fd14268be58cc9d3ce6a9ae8b43f 91 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
+ 835293de64591067db7620019ac341dcfe6ea465 95 universe/binary-amd64/Release
+SHA256:
+ e4d2a41ed2abb3b8a673d02525f231f12dcac2148926f289aa879976a840c819 437 main/binary-amd64/Packages
+ 19eb8f018b87480b598c77b43b153725f37ed089ed8ca6615d305eaf587fbe0d 331 main/binary-amd64/Packages.gz
+ 342b0b998e550ec3fec4d671550b138193dc4db7695d7924425dc59e611dfd8e 91 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
+ 7f608834dc0360f7c774afd269556241e788cf0f4abcc2c41d5a0fecb615e063 95 universe/binary-amd64/Release

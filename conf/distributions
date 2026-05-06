@@ -1,0 +1,11 @@
+Codename: abstract
+Architectures: amd64
+Components: main universe
+Description: Official Repository for Abstract Assembly
+SignWith: 2351BF806ABC22F8
+
+Codename: resolute
+Architectures: amd64
+Components: main
+Description: Ubuntu 24.04 LTS compatibility layer
+SignWith: 2351BF806ABC22F8
