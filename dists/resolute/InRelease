@@ -2,13 +2,13 @@
 Hash: SHA512
 
 Codename: resolute
-Date: Wed, 06 May 2026 10:33:31 UTC
+Date: Wed, 06 May 2026 10:57:40 UTC
 Architectures: amd64 i386 arm64
 Components: main
 Description: Compatibility with Ubuntu 26.04 LTS (Resolute Raccoon)
 MD5Sum:
- 9bbb19b6b718c033e3bf71f1623ce503 501 main/binary-amd64/Packages
- 655549804350bd5182b877e69813fe04 368 main/binary-amd64/Packages.gz
+ 228afeeaed536698330762d7cb582dc6 501 main/binary-amd64/Packages
+ cd4d1268d69957c1e3ac8bdb55f1cd20 369 main/binary-amd64/Packages.gz
  09c4a5d1e593b9925c36bf0ac83f2124 104 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
@@ -17,8 +17,8 @@ MD5Sum:
  7cb6fef8fe75c14c58928eef9839f44b 369 main/binary-arm64/Packages.gz
  a6975a930bccca95214b92abfbf1b47b 104 main/binary-arm64/Release
 SHA1:
- 06c84d50b796ce33faad9640bb55c41007e8766a 501 main/binary-amd64/Packages
- 58ff9b347fc12149ef373a4474bbeb53c5e49361 368 main/binary-amd64/Packages.gz
+ 6c52d76b7e1f45823a84980a93b67fbf39f8ca08 501 main/binary-amd64/Packages
+ 23cb951a58f98faa5e8cf56c2093794006297fed 369 main/binary-amd64/Packages.gz
  b29f9e677ba6bbd7196782bc87479ae90784d910 104 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
@@ -27,8 +27,8 @@ SHA1:
  ac45a3b1a7f219ac9abde64284b3a1671f5ebe14 369 main/binary-arm64/Packages.gz
  6e47efc653ea60faebd3a5f87e196f184668cb54 104 main/binary-arm64/Release
 SHA256:
- 260c314e67268f3000905578cd962f8f1e7568b97fd7fb74aa6ed2221bba818f 501 main/binary-amd64/Packages
- a453efc62b7ded21a3a25aaeb8d70b133259c81975d8521e86e6d1fdb93be371 368 main/binary-amd64/Packages.gz
+ 1d8507a8beb57a11a20a9dd1a16792eb4670bca8dfaceefb69dc3389d92751b2 501 main/binary-amd64/Packages
+ af0a82d10dedc7c59b14ebea6e9c4ddfe88a42e51111818f124b76c1005b5424 369 main/binary-amd64/Packages.gz
  071f3bae8e99b52a16576317e431cb43270362de486c6c568fb8a846aad48482 104 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
@@ -38,17 +38,17 @@ SHA256:
  370144a901250da3afe3ff72326d3346ba658c49f8aaba8458e0b1e2c41e0cd5 104 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmn7GPsACgkQI1G/gGq8
-IvhnKw/9EUMgCKTtHaIzUospgfWB8yPe4ffK9QEhuvgKwZZtR+kxOPbEun/OH52K
-avOlp9Sju+TPjDB8bhSeFFGLJZPXkJJ95t4OpVf3Q9os+W/DcyFIJE27LcKsFn/9
-qyUneTNIko6uOVYK1xyeB5spiPMoacFeIsRgAfOVDrMiKiOFQRqRADhe9rpwQkhg
-jWdireOpKC2M8koloKHZu2kXn6uXFGFvaEZn3T/NEdW130JIj5Ofwb0Ghjt+nYSU
-S4zLyd35YTL4J48zakqYN++IIel8LYp4rVuD3rsSse49lSKrC8q8wDdVQdBmH+7t
-mnBxbsAUTYoLutzFJHzItCeZdKQfhU9YZ2xNOww/7rpi64R9DZLivUuTzvA6MP5F
-hpzW1ffpTLOncYTK5FpDl/kBHbJ+Kg3iP0yu8JYGRbYJWdJ6U45MT/3LZ99DdLaV
-BziNPvERtk7/mPS3ywzjY0gyv06v6DyOqyMRMnOHKRDyBycq5eaoUa8RHsnBYnWR
-mjWznksNJ9xzI/WNV7DXFbiHs+rZG5et2z5JVfm8dO8mP5ma6R5ihWLP3H7XB0Ry
-ArlU/4nmHoD1MYu12aXIE76hMqWdT2idT4hQiyG4Vui4123arnRQmOwXsARHAjTB
-CG+W30tOTsjGSQ4gVTeSu1gpvvlk8IrJZHk3Uz1CJLJ43A18xHs=
-=Nset
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmn7HqQACgkQI1G/gGq8
+IvjCwRAAqTNxXWUaYJ2G7N9EPsC7qmFC/SMOQjSbu40XtVWnBukhzmMHp8q/l+eK
+IU4J15fe7HSnhjgNkqIs4D6NIHMJf1RYzzglANRZqxC75k5I4bshpefBbzGQL0SP
+PILpEQFqhz9Yne6cZCKqGnJufvmuUqBIhDGDCuUTM/RSjySzVaD+nFXvmN+37rHO
+ki0A3XqQT0OTAX8gQj1aHOYAk/8NydHE9Udtlh4lUvgSR5JluuDmhX6auwMa92+l
+I7ELnOse4NJ06XzrIt5Mpi6bi5mA3fQXeHHCgNJqRseGSxJX/2udl7DInmcae7ck
+QkThiTIauqqA0dO70xA0DSIuX8cnE8iRs1VhfPSJp2GzjdPo/nOBERdDrKg6LN8d
++rEJGWjR9dj7bJvy1OHrWW2h4TI81RmDzDd4dBXQ3+CMmvsdsdJyDItmA+wXUhiN
+nle0OafBLr0gB8XhwPhnENs43Ivw/MuM1WGVBfBzOerzNsT1VW3UPYhJN+mYhPvJ
+TzE2uN8PzF01/QMxQrZ+wso+BppIcTI2FSD9k787d1lwifmVplkbki4+IJA+WJTI
+uZIJsn1nJrWrS70rtmRE33T8e3AyACQvP4q/lVCcUb97B/2NqbuWYkv7Mf3OvBIF
+ssPPCKmPN5I4yVgrdSh8KBYTefgC50kINrekJMjWVhitEwLjreY=
+=Uhum
 -----END PGP SIGNATURE-----
