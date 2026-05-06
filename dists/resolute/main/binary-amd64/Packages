@@ -1,0 +1,13 @@
+Package: utile-wallpapers
+Version: 26.04.0
+Architecture: amd64
+Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Priority: optional
+Section: metapackages
+Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.04.0_amd64.deb
+Size: 24574874
+SHA256: a7d293fe16bc9fe5a2208a38e2951c528c2ddd67770d903dc75da0da6a79c551
+SHA1: 3a96b18a3d3af20979980accfdffd9ff50d2273e
+MD5sum: 7f68711591a4c2a8e5226680eabb82c7
+Description: Wallpaper configuration for Utile OS 26.04 Abstract Assembly (amd64 defaults)
+
