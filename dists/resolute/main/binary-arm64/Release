@@ -1,0 +1,3 @@
+Component: main
+Architecture: arm64
+Description: Compatibility with Ubuntu 26.04 LTS (Resolute Raccoon)

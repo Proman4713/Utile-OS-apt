@@ -1,0 +1,13 @@
+Package: utile-os-dummy
+Version: 1.0.0
+Architecture: all
+Maintainer: Aaser Abd-el Sabour <proman4713@example.com>
+Priority: -1
+Section: utils
+Filename: pool/main/u/utile-os-dummy/utile-os-dummy_1.0.0_all.deb
+Size: 514
+SHA256: 58586329e4d09bb0ebd063d116c0549405ba8516def664fd3c03f1567608356f
+SHA1: a54ad74e65ca3e06a0a839aee10b3210bd0ef6df
+MD5sum: c4e94a83f92591b2af213aa3f7d12f35
+Description: A test package for Utile OS APT repository.
+
