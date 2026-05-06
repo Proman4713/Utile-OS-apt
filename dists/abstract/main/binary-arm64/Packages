@@ -12,15 +12,15 @@ MD5sum: c4e94a83f92591b2af213aa3f7d12f35
 Description: A test package for Utile OS APT repository.
 
 Package: utile-wallpapers
-Version: 26.04.0
+Version: 26.04.0~beta1
 Architecture: arm64
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.04.0_arm64.deb
-Size: 24575346
-SHA256: 6b2135891378657e63115f2c569771957b1e06d498ab8f34d4decf8e115bbd11
-SHA1: c68c0bfb1b551ddf3cad7f2b99ca432417ba0695
-MD5sum: ee2ccb08816b8c686e0af597a4f21195
+Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.04.0~beta1_arm64.deb
+Size: 24574728
+SHA256: c76a11e6f54825800401ede7b87fe72911fe2371c0e58fcaf1e1bae1028bb903
+SHA1: f142c3074cb18c9f21c09e32e9b04ee5853897fa
+MD5sum: 5713e11025fb41dac573d16b4af1dd8e
 Description: Wallpaper configuration for Utile OS 26.04 Abstract Assembly (arm64 defaults)
 
