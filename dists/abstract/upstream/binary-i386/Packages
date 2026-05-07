@@ -9,10 +9,10 @@ Replaces: base-files (<< 11ubuntu11)
 Priority: optional
 Section: admin
 Filename: pool/upstream/b/base-files/motd-news-config_14utile6_all.deb
-Size: 38150
-SHA256: aa2b80bf61f36e38c30206d7f94eeaaf76409b1be45557f393d1612264e9f999
-SHA1: 6d1584c2991e47703059dd84705d27defb1b028c
-MD5sum: b08288589d4c188ea40cfe635ef0dde9
+Size: 38178
+SHA256: 8b005c6b17e87bb30aedba8b9f1686175faf18a0ea33d6f047136a5c6f773e7e
+SHA1: 5e2007fcd4743eb855b547f3a24a951ead9937f4
+MD5sum: 2fe5ae7c2deb04832ccc1277a7ff9038
 Description: Configuration for motd-news shipped in base-files
  This package contains the configuration read by the motd-news script
  shipped in the base-files package.
