@@ -2,17 +2,14 @@
 Hash: SHA512
 
 Codename: resolute
-Date: Sun, 10 May 2026 22:24:02 UTC
-Architectures: amd64 i386 arm64
+Date: Sun, 10 May 2026 22:41:19 UTC
+Architectures: amd64 arm64
 Components: main
 Description: Compatibility with Ubuntu 26.04 LTS (Resolute Raccoon)
 MD5Sum:
  fc040e04c9f7146bacf5ffacc95bf159 1563 main/binary-amd64/Packages
  710978a217738b9027045c222d348348 720 main/binary-amd64/Packages.gz
  09c4a5d1e593b9925c36bf0ac83f2124 104 main/binary-amd64/Release
- 90b051662d17843caa23dfbab1147be4 969 main/binary-i386/Packages
- 6d0b73ae26a177c07a47f8f18f5b0109 507 main/binary-i386/Packages.gz
- fbc2db5796eac3495443c61d5c64c125 103 main/binary-i386/Release
  f11d662a28e5c76fc57a932ecaba2388 1563 main/binary-arm64/Packages
  35548b0c4a41a7747338c6526ca09b41 720 main/binary-arm64/Packages.gz
  a6975a930bccca95214b92abfbf1b47b 104 main/binary-arm64/Release
@@ -20,9 +17,6 @@ SHA1:
  f17088ad81cf0788350a41ed17a0e29d9b00ae3b 1563 main/binary-amd64/Packages
  0c5945f2a07e38a80d689b575c755ebccce7f0f5 720 main/binary-amd64/Packages.gz
  b29f9e677ba6bbd7196782bc87479ae90784d910 104 main/binary-amd64/Release
- e3dd29aaa508baa220608b05694565ddf8d87bdd 969 main/binary-i386/Packages
- fe0ded0c1553da0b00ae4848a328eeb27880474f 507 main/binary-i386/Packages.gz
- 9b1f59122a32a00d4e6496525173c4dd1b91853e 103 main/binary-i386/Release
  9495ffa998e34840ba027f4f617f2efadddaba47 1563 main/binary-arm64/Packages
  0228a722cba425edba0d42af5bae1772d35bdd55 720 main/binary-arm64/Packages.gz
  6e47efc653ea60faebd3a5f87e196f184668cb54 104 main/binary-arm64/Release
@@ -30,25 +24,22 @@ SHA256:
  22224992da9a9fc2b97ffe0da2f953c80f6e342d49b2ea49807fe401b48908cd 1563 main/binary-amd64/Packages
  522516331e0d615715c6e3057ce83f2e3e23e2b140635a2f7b5beff086b72476 720 main/binary-amd64/Packages.gz
  071f3bae8e99b52a16576317e431cb43270362de486c6c568fb8a846aad48482 104 main/binary-amd64/Release
- b25b5bc842949954d5f26b782dbbef179bb91c38382dee09bf7c8955868ba77c 969 main/binary-i386/Packages
- 289ffb140806a758afd4a634f98e497103a7a8901e3928a9ac3c21cc8177e8cf 507 main/binary-i386/Packages.gz
- bb58a6c0e8fcbb0590371f94c82f9de39c2efaf1af9e54e995a1e9310061ce4c 103 main/binary-i386/Release
  934e2491a6e6a54b2494c88dcd8fc3dd87ac835c30f4cab34ce7e08d5d7a093e 1563 main/binary-arm64/Packages
  ac95938cff1813c8305df8556165f95f4abd74fa8c21b1b2b4690575f3898b4a 720 main/binary-arm64/Packages.gz
  370144a901250da3afe3ff72326d3346ba658c49f8aaba8458e0b1e2c41e0cd5 104 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmoBBYIACgkQI1G/gGq8
-IvhbUw/+Pj3BdkemNAUCnXnw0M/geuC3iZihByyqxdoUcfQfgnH/Ms0EXO2sTyxn
-XmamFPTz3pY5WCM3P/ILjvM7lQmTgN34rzJKT8G780Tl00NX9DawVklUmFT37FoT
-cOd0dM2l6CmbhL90ttNlQltwB13RTc8MTfj6csPoX/rVvreEvZyqAs+ErES37mRO
-Ju6yBUblb3YgQzbGE7VjiCCOJZPqB8JJ5vxST9ip47bu2ODIbdlXL5ZdV2VhHMfr
-/jgzfNrv1zCPAeblg5rrY3wezRvVSe6aqQzIOOhp9mtpoWeLgJJ6FPZ+g8gya/r8
-eF4pi8HU2FgeQQyJR6Bacj2JrZ3JeU0BrzPz+/UBlA8JRZXw6ZZbjRGsVZr7Xm0j
-+zyTIZaq8mbzIFzIQOxNMWEauZmJ50JQYotGOYNAPc5YqASOKF4vrk6B+PkX3yAd
-bR34or1N7hn+4en9b7JPSWpjryBWq020svF3CicVYlOPxzmKf0Q2TjEPqcwDGHta
-kQ15xuRug8Gj+Q05QO445MVDhJVVcJoMOa2v5BkR4Lex50phCaZBD8SDeQzOZQ43
-GRoZMpbQqaNooIuPKuMqEx47aFuqJBR319ft3YC9TA3tGTROUvPQVfsuvxv+KcxE
-M/DtHOWnLajZfb1QzDIhRnZzzRHmabgSxJLt92uhRwVvM28fSZM=
-=Pj8t
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmoBCY8ACgkQI1G/gGq8
+Ivid9xAAjPz8DuOeJQgoybGMofQE8gorAXtril6T58ap8o2LBGg9sGun6lW35nft
+q5ei8ZXAzDmuJOEpVxmihuzHS1Ari5vxKMOI3+T3B6pBF0eaxDwBHFQGMctFVf5l
+nG/9nwMFaTVLOK6Q35IvqUqRIx+XLMF/kqhIUt9EIDV+n6JBZS8LWnYIhxfOsSEe
+rSBQ4cdSGcgt2KSvBhOxUmOJc6J3emOvNEmWNHG91ogAbSWYh2oATmE0oNOG82rj
+FEW+dza4k2/Vl5eQ5PAUlbRrC2c8pXljOl5zSZaQvLdMKwZbNRvpZ6DPjw6uRIoq
+wTAFgg6IY5Jc8DjhuN0fg4wKnXdKOlCz4TUZzPu2Cfvytnfy/hDqg3jpHKPCHkug
+FtoRV9og132T8nk8jFn8oYrGfMKBk46bkoIGQ0S7gFcQdNdwbnYtvS6zTZ1I8HRN
+IRuj7ci20c2HDYa0WMd7X0TqnCpilaVYtheaDVVSBbc8xcheYkHrYAEpNyC9qCR0
+DFOkFKw1sktQ1XrZLC2f9f9IxwXedHwMK3Bg+FF3uzJZiq0uBrOvZWpW5hWQNb7g
+z8uvfdCZrj1xUZmgJtImKkWQ5iGwHI6CBmnTo4eAbmYiyqU3ZAhMrmlnHnVQjuB7
+TrL6fewYjL2/2J5AdPzbG+3o313RSgKaSDmjXyKKXbZQoLdaUQA=
+=DaIR
 -----END PGP SIGNATURE-----
