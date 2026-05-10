@@ -1,0 +1,28 @@
+Package: utile-desktop
+Version: 26.04.0~beta1
+Architecture: all
+Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Priority: optional
+Section: metapackages
+Filename: pool/main/u/utile-desktop/utile-desktop_26.04.0~beta1_all.deb
+Size: 564
+SHA256: 8c08a58c4e4af7154f14f041940e82a3f24f6fa7cfa72378236b97fb10aacc54
+SHA1: 853fb7fed2fecc5d8074e8ff0049fc73d18e9566
+MD5sum: cfa0ec219cc14ca0e27b0f0463172749
+Description: Utile Desktop metapackage
+Depends: utile-wallpapers,base-files,utile-grub-theme
+
+Package: utile-grub-theme
+Version: 26.04.0~beta1
+Architecture: all
+Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Priority: optional
+Section: admin
+Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.04.0~beta1_all.deb
+Size: 88554
+SHA256: a1c666567a85c5cd3dd587635d8124618a411e1c6b1574a9ac88015ca259b5bf
+SHA1: 58f88ad38870a09dd8aae632d6bbe6b0c980ff6f
+MD5sum: 67bab232b60d9298be372f816dbcd028
+Description: Utile OS Grub Theme and Fonts
+Depends: grub-common
+
