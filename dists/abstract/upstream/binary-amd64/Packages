@@ -1,9 +1,9 @@
 Package: base-files
-Version: 1:14utile7.1
+Version: 1:14utile7.2
 Architecture: amd64
 Essential: yes
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 566
+Installed-Size: 496
 Pre-Depends: awk
 Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.4.10-10ubuntu3)
 Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~), ubuntu-server (<< 1.453)
@@ -12,11 +12,11 @@ Provides: base, usr-is-merged
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Filename: pool/upstream/b/base-files/base-files_14utile7.1_amd64.deb
-Size: 111524
-SHA256: 11d01a76183352335c1da7bc17a6de0ffc74a031a374004d8752796c1bf7a047
-SHA1: b6732b2f594265342fa5529e1cec98249bab3ce6
-MD5sum: dbe0a11e35dbef4312bb8c827efa220c
+Filename: pool/upstream/b/base-files/base-files_14utile7.2_amd64.deb
+Size: 108456
+SHA256: 144626f3cb9ea5af518eef4dce8a8fdab0e39e1b3785c29f2eac53ec3147bd75
+SHA1: e962fb2ebbea2ed771359668e0b6b1daf15b82c8
+MD5sum: 6d03cd11afd66241937660c65a2cfc9f
 Description: Debian base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
  several important miscellaneous files, such as /etc/debian_version,
@@ -26,7 +26,7 @@ Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
 Package: motd-news-config
 Source: base-files
-Version: 1:14utile7.1
+Version: 1:14utile7.2
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 52
@@ -34,11 +34,11 @@ Breaks: base-files (<< 11ubuntu11)
 Replaces: base-files (<< 11ubuntu11)
 Priority: optional
 Section: admin
-Filename: pool/upstream/b/base-files/motd-news-config_14utile7.1_all.deb
-Size: 38232
-SHA256: b30353be11aaa6c03e49676e0fae5864061176124c6fb41b50c8e3eea6b3aa4c
-SHA1: 09e34b1bb4f1eea8b635b09dbadf9caa97e3ea8d
-MD5sum: 538aeb4688a1eb3ce78d192e62107e2f
+Filename: pool/upstream/b/base-files/motd-news-config_14utile7.2_all.deb
+Size: 38304
+SHA256: 6dc7c821a7761fa2d97cc7e16b7604ada7ac656ca246ecea9122396422254f16
+SHA1: 2db64f16ee5417a7418f25301b75b726a94627ee
+MD5sum: 6f54b73ef70d564279b2f3b8a60b7593
 Description: Configuration for motd-news shipped in base-files
  This package contains the configuration read by the motd-news script
  shipped in the base-files package.

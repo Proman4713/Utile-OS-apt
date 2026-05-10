@@ -15,15 +15,15 @@ Package: utile-wallpapers
 Provides: ubuntu-wallpapers
 Replaces: ubuntu-wallpapers
 Conflicts: ubuntu-wallpapers
-Version: 26.04.0~beta2
+Version: 26.04.0~beta3
 Architecture: arm64
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.04.0~beta2_arm64.deb
-Size: 24591640
-SHA256: 35f92c91f32b643dd7efc6fd88cf202f4149a4e6ee8a8716bdaef35530ab263c
-SHA1: 41c0d516a38569cb229e4e6dad1e995a52c1ee9c
-MD5sum: 91795240d31895f40f6007613ac9ee63
+Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.04.0~beta3_arm64.deb
+Size: 24369484
+SHA256: 08d5b7238117364df1d432bc5814484ae0bb54d9579b89f57b13868ba22fce01
+SHA1: 5ef4eb5cb45695ec7d01d8845521322ba9fb0a6d
+MD5sum: 162e06c083c12d78e480f4a97a299b3a
 Description: Wallpaper configuration for Utile OS 26.04 Abstract Assembly (arm64 defaults)
 

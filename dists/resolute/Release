@@ -1,35 +1,35 @@
 Codename: resolute
-Date: Sat, 09 May 2026 23:56:11 UTC
+Date: Sun, 10 May 2026 17:15:04 UTC
 Architectures: amd64 i386 arm64
 Components: main
 Description: Compatibility with Ubuntu 26.04 LTS (Resolute Raccoon)
 MD5Sum:
- d381a9ce90b1d3ce9a4db313004bc1a5 598 main/binary-amd64/Packages
- 9668e41b952dc0e5683abb59d9b0fbb4 400 main/binary-amd64/Packages.gz
+ 9bf273597f766bd318941b772f5f47bc 598 main/binary-amd64/Packages
+ da90d69cbf163b52e333a7eef2f52290 399 main/binary-amd64/Packages.gz
  09c4a5d1e593b9925c36bf0ac83f2124 104 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
  fbc2db5796eac3495443c61d5c64c125 103 main/binary-i386/Release
- 30208011ca42287e87481a0f32e8c88e 598 main/binary-arm64/Packages
- dfe7d48a1ec7727278530f2b8e600971 399 main/binary-arm64/Packages.gz
+ ba0c8988f63cfd5ce6485079c8768478 598 main/binary-arm64/Packages
+ b119e6b3dbfa1523224d0f77baef52af 401 main/binary-arm64/Packages.gz
  a6975a930bccca95214b92abfbf1b47b 104 main/binary-arm64/Release
 SHA1:
- c10dc17b8531e37653c38444c7b7f48bf790654b 598 main/binary-amd64/Packages
- 99e1517c8a50939b08ab9fd1667a9c205bd93619 400 main/binary-amd64/Packages.gz
+ 8d1b402d2bf1cb4bc48da5e6d508829147c04207 598 main/binary-amd64/Packages
+ af99e0900b0baefc9f2243be3130177295b6b45a 399 main/binary-amd64/Packages.gz
  b29f9e677ba6bbd7196782bc87479ae90784d910 104 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
  9b1f59122a32a00d4e6496525173c4dd1b91853e 103 main/binary-i386/Release
- 23dd6e89f798520adc622a6d2e32c2710996d5ff 598 main/binary-arm64/Packages
- 3d3537f2e51e2c72726e194514233b2c32a14ca1 399 main/binary-arm64/Packages.gz
+ 5f7ba12dbbc1373644bc1e6810658c7d4016ae3f 598 main/binary-arm64/Packages
+ 563a918b4cd53f803f0269e80f0503e71f0c94df 401 main/binary-arm64/Packages.gz
  6e47efc653ea60faebd3a5f87e196f184668cb54 104 main/binary-arm64/Release
 SHA256:
- 2f680c438b8b40dad441ba6acd706aede6b4b1b3fdff0fe6f5be79329b89e489 598 main/binary-amd64/Packages
- 671a5d43893748ad05775b227415f9593cbbb16bb449473beccc5a5a1e2ccaff 400 main/binary-amd64/Packages.gz
+ 712e5f372335391ce8643ae2943d72ff358872d70b9f6fad06a120b423afa10d 598 main/binary-amd64/Packages
+ cbe4bece46aa1c2cce4ef7d43a33188efca7faf09fcdcee137bdeec8de4cc45b 399 main/binary-amd64/Packages.gz
  071f3bae8e99b52a16576317e431cb43270362de486c6c568fb8a846aad48482 104 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
  bb58a6c0e8fcbb0590371f94c82f9de39c2efaf1af9e54e995a1e9310061ce4c 103 main/binary-i386/Release
- 355edc8c80fad439b31f72c5dc99758dcc5e0573c4ccc4634df6bf3dd1883e0e 598 main/binary-arm64/Packages
- 893d46f69131254c48bb83fcac38c1399832b6f16ac0deb656dd5f0ed5a8b5c1 399 main/binary-arm64/Packages.gz
+ b9ac0fae0ef81e2244026e33b48cbb563cab7c292d5d915c57f327c28f1c012b 598 main/binary-arm64/Packages
+ 684f5de3e3a08f824ff937331a0e82ef9f60dad6c3c59c2d38bd80c197e3ed9d 401 main/binary-arm64/Packages.gz
  370144a901250da3afe3ff72326d3346ba658c49f8aaba8458e0b1e2c41e0cd5 104 main/binary-arm64/Release
