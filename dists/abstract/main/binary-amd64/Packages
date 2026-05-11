@@ -13,16 +13,16 @@ Description: Utile Desktop metapackage
 Depends: utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme
 
 Package: utile-gnome-defaults
-Version: 26.04.0~beta3
+Version: 26.04.0~beta4
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.04.0~beta3_all.deb
-Size: 5276
-SHA256: dfcbd0fd8004c1158034011b531506380e3b8542921af6733cb9edb049e01fec
-SHA1: 8f41dc150df584d6256d15e4e8d01f409b0190af
-MD5sum: af0a4d380859fd72e6a0b27c0eec19f7
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.04.0~beta4_all.deb
+Size: 5298
+SHA256: 598ba505692248a736878cd6dd65383bfb375bcb046918c3389f23216aa839d5
+SHA1: a2fd9fc3b3a163d8a4687fc28267f32eaa308fd6
+MD5sum: c68189fab67b4cbb6a0c36886ce48f6c
 Description: Utile OS Default GNOME Configurations
 Depends: gnome-shell
 
