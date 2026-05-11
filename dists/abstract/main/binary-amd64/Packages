@@ -13,16 +13,16 @@ Description: Utile Desktop metapackage
 Depends: utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme
 
 Package: utile-gnome-defaults
-Version: 26.04.0~beta2
+Version: 26.04.0~beta3
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.04.0~beta2_all.deb
-Size: 5190
-SHA256: ff1fd4af73870dea194667ed308a22562173fad04ed3c1247842d2d4c47b8141
-SHA1: 9ded0f41df65f0c745ed185c1e6c64ccb1180605
-MD5sum: 6f0ed1622003ea4850d78e114e1cb076
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.04.0~beta3_all.deb
+Size: 5276
+SHA256: dfcbd0fd8004c1158034011b531506380e3b8542921af6733cb9edb049e01fec
+SHA1: 8f41dc150df584d6256d15e4e8d01f409b0190af
+MD5sum: af0a4d380859fd72e6a0b27c0eec19f7
 Description: Utile OS Default GNOME Configurations
 Depends: gnome-shell
 
@@ -58,15 +58,15 @@ Package: utile-wallpapers
 Provides: ubuntu-wallpapers
 Replaces: ubuntu-wallpapers
 Conflicts: ubuntu-wallpapers
-Version: 26.04.0~beta5
+Version: 26.04.0~beta6
 Architecture: amd64
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: graphics
-Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.04.0~beta5_amd64.deb
-Size: 24369410
-SHA256: 3f43bb51698bc9ffd55adcc2e678db73efb1c782f989f9d53f8d5b6f0a92133d
-SHA1: 8b341d3e3d4cb79fc7afce143ee3e067ba9528b5
-MD5sum: 1e1bbabe45742f2ae48dcf0307900344
+Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.04.0~beta6_amd64.deb
+Size: 24369380
+SHA256: 09a904bda8459f1cba1dc5f27809c1228ca3c171a8add28fc83852e333a1075b
+SHA1: 1117bbd8865819b8407af41137d40e50b821a504
+MD5sum: 8ee9d3e4a433360c92bd53d500743077
 Description: Wallpaper configuration for Utile OS 26.04 Abstract Assembly (amd64 defaults)
 
