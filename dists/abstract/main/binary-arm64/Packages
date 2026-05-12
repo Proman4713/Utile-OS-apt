@@ -1,14 +1,14 @@
 Package: utile-desktop
-Version: 26.04.0~beta4
+Version: 26.04.0~beta5
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-desktop/utile-desktop_26.04.0~beta4_all.deb
-Size: 1030
-SHA256: 64a8afade568a5934538879448f3a13795d9e702088f750114c0ffe8839b9dff
-SHA1: 114a8997b9ca74b83db69e9d149c6ea9d7a96938
-MD5sum: 456b1f3aa60f255087b533ca3965c058
+Filename: pool/main/u/utile-desktop/utile-desktop_26.04.0~beta5_all.deb
+Size: 1026
+SHA256: dd90a5b12f590a4be9c8a493a2e1c26a7580cc298463ddb30d72840d3b2ca9bc
+SHA1: da3ede8ab2c2dd4cef1138d5b8a6fe62391b44f9
+MD5sum: 13c85ce008862801eb21ff1d1a7359e8
 Description: Utile Desktop metapackage
 Depends: utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme,nala,fastfetch
 
