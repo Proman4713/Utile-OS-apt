@@ -1,44 +1,44 @@
 Package: utile-desktop
-Version: 26.04.0~beta2
+Version: 26.04.0~beta3
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-desktop/utile-desktop_26.04.0~beta2_all.deb
-Size: 588
-SHA256: 7d47473d4fa59f5900f7eb5261456e277bb63d2c591ae1f70ff69a440d16a982
-SHA1: c75a5857f3f54285fd93fb4e19ff15be8cdadafd
-MD5sum: e2aed8057fb6c8751d51876561399632
+Filename: pool/main/u/utile-desktop/utile-desktop_26.04.0~beta3_all.deb
+Size: 1030
+SHA256: f6036179ff50a37596507972f7ae315a4afdcf8edbf1d423fe0e19f10f48ad88
+SHA1: 56a6cc1e6c75821ac957101a7ce5ce93daf92cca
+MD5sum: 27a7c3a6740050a3e7f8c6f4ca384045
 Description: Utile Desktop metapackage
-Depends: utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme
+Depends: utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme,nala,fastfetch
 
 Package: utile-gnome-defaults
-Version: 26.04.0~beta4
+Version: 26.04.0~beta5
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.04.0~beta4_all.deb
-Size: 5298
-SHA256: 598ba505692248a736878cd6dd65383bfb375bcb046918c3389f23216aa839d5
-SHA1: a2fd9fc3b3a163d8a4687fc28267f32eaa308fd6
-MD5sum: c68189fab67b4cbb6a0c36886ce48f6c
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.04.0~beta5_all.deb
+Size: 5530
+SHA256: c1618d366df524ebf79fd1b6dfa744adc782ddf15aba4e9b311fbb5c10f30d3a
+SHA1: 63fdf789de609ca708e38efd0ad5370c5217dd7e
+MD5sum: a4c64e78f872d107eebe2403043cb231
 Description: Utile OS Default GNOME Configurations
 Depends: gnome-shell
 
 Package: utile-gnome-shell-extensions
-Version: 26.04.0~beta2
+Version: 26.04.0~beta3
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-shell-extensions/utile-gnome-shell-extensions_26.04.0~beta2_all.deb
-Size: 2620646
-SHA256: d8dfab39b5cce1e1bd317833a2a547a3a5747b35973495263e57f46d6ec3a349
-SHA1: a33dd6617b9b6b162de6319c16295b0340e21eea
-MD5sum: df20a3ef86f77dff64e9d76dde918e33
+Filename: pool/main/u/utile-gnome-shell-extensions/utile-gnome-shell-extensions_26.04.0~beta3_all.deb
+Size: 2620654
+SHA256: 622db575567ef7e322904839cce14166453e2a3b9bff914e91a3e324db45aa05
+SHA1: 34aadba7a4c2ea20480c61d7a438f866e8a3aca5
+MD5sum: ba69ac51be5e7fa80dee78e657a8ce19
 Description: Utile OS Default GNOME Shell Extensions
-Depends: gnome-shell
+Depends: gnome-shell,gnome-shell-extension-gsconnect
 
 Package: utile-grub-theme
 Version: 26.04.0~beta1
