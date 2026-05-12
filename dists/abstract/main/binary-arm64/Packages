@@ -1,56 +1,78 @@
+Package: motd-news-config
+Source: base-files
+Version: 1:14utile7.3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 52
+Breaks: base-files (<< 11ubuntu11)
+Replaces: base-files (<< 11ubuntu11)
+Priority: optional
+Section: admin
+Filename: pool/main/b/base-files/motd-news-config_14utile7.3_all.deb
+Size: 38348
+SHA256: b6dfd933c4d0da8bbf2821a3303a7532134e1338e6c193e271c898d5c232d1a0
+SHA1: d55e0ba6f815f354959534a5afffd515d530631e
+MD5sum: 84cfdb8eaa3ae12f3565a1c075df66cf
+Description: Configuration for motd-news shipped in base-files
+ This package contains the configuration read by the motd-news script
+ shipped in the base-files package.
+ .
+ Install this package if you want motd-news to be enabled.
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
 Package: utile-desktop
-Version: 26.04.0~beta5
+Version: 26.0~beta5
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-desktop/utile-desktop_26.04.0~beta5_all.deb
-Size: 1026
-SHA256: dd90a5b12f590a4be9c8a493a2e1c26a7580cc298463ddb30d72840d3b2ca9bc
-SHA1: da3ede8ab2c2dd4cef1138d5b8a6fe62391b44f9
-MD5sum: 13c85ce008862801eb21ff1d1a7359e8
+Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta5_all.deb
+Size: 1028
+SHA256: 033d6696e292653eb47bebab5694cbe4d9692ff126cf3944b03396f6d07730b2
+SHA1: 382b8e59d5831bd078fdbe8f92a2563699bec5c5
+MD5sum: 931252e98b4b8e43ec2cec0557b8cfba
 Description: Utile Desktop metapackage
 Depends: utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme,nala,fastfetch
 
 Package: utile-gnome-defaults
-Version: 26.04.0~beta5
+Version: 26.0~beta5
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.04.0~beta5_all.deb
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0~beta5_all.deb
 Size: 5530
-SHA256: c1618d366df524ebf79fd1b6dfa744adc782ddf15aba4e9b311fbb5c10f30d3a
-SHA1: 63fdf789de609ca708e38efd0ad5370c5217dd7e
-MD5sum: a4c64e78f872d107eebe2403043cb231
+SHA256: ab934e470701da9c3265b575df8882013f692e6ffe1d7723cc7d2687d3eefd8a
+SHA1: 97f00e3691142b3370bda90cce48005a56ffeb0e
+MD5sum: 5be169cae235523dabbef8e5377a55a8
 Description: Utile OS Default GNOME Configurations
 Depends: gnome-shell
 
 Package: utile-gnome-shell-extensions
-Version: 26.04.0~beta4
+Version: 26.0~beta5
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: utils
-Filename: pool/main/u/utile-gnome-shell-extensions/utile-gnome-shell-extensions_26.04.0~beta4_all.deb
-Size: 2620654
-SHA256: 6ded68dea79ec366c7bbe480ed0b6a4426925680eb79e93b953e22c33562c092
-SHA1: 97313a596fb446fab5895a93097826dd52f55449
-MD5sum: 08bfc72f72f8d9d18a4b43d167f7dd54
+Filename: pool/main/u/utile-gnome-shell-extensions/utile-gnome-shell-extensions_26.0~beta5_all.deb
+Size: 2620658
+SHA256: 2f0dd99fb366e2a777261f85e828172a923fe0e0634949c01a5c832b998e28f9
+SHA1: 32c2b097445e8a1819b9c765dbffaeb569bdbb42
+MD5sum: ebf7611aeca2b707b205e83ae88becaa
 Description: Utile OS Default GNOME Shell Extensions
-Depends: gnome-shell,gnome-shell-extension-gsconnect
+Depends: gnome-shell,gnome-shell-extension-gsconnect,gnome-shell-extension-gsconnect-browsers
 
 Package: utile-grub-theme
-Version: 26.04.0~beta1
+Version: 26.0~beta1
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.04.0~beta1_all.deb
-Size: 88554
-SHA256: a1c666567a85c5cd3dd587635d8124618a411e1c6b1574a9ac88015ca259b5bf
-SHA1: 58f88ad38870a09dd8aae632d6bbe6b0c980ff6f
-MD5sum: 67bab232b60d9298be372f816dbcd028
+Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.0~beta1_all.deb
+Size: 87468
+SHA256: 43de8538175c060b208c5c71018cae005bad1948f72d9080c41d93d2a813efa4
+SHA1: e5e1971b8adfa277d9dcd124ac29968b18032f01
+MD5sum: 04a92f4206410bfafb9ada66309d7a88
 Description: Utile OS Grub Theme and Fonts
 Depends: grub-common
 
@@ -58,15 +80,15 @@ Package: utile-wallpapers
 Provides: ubuntu-wallpapers
 Replaces: ubuntu-wallpapers
 Conflicts: ubuntu-wallpapers
-Version: 26.04.0~beta6
+Version: 26.0~beta6
 Architecture: arm64
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: graphics
-Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.04.0~beta6_arm64.deb
+Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.0~beta6_arm64.deb
 Size: 24369320
-SHA256: 7c902b38b3de182eaa16cb6af100bc013173b99298e2524a058ac323b7ae1979
-SHA1: cc4e6dce8ab8a8de5ee2836688dd50671c3858f1
-MD5sum: 2dc1fc0ab575039dd05e733fb10e9466
-Description: Wallpaper configuration for Utile OS 26.04 Abstract Assembly (arm64 defaults)
+SHA256: 7baceb7395b591a767042744b1cadeaa01a92c352a031b69989f9d148b3d60a5
+SHA1: 643eaba5e51865bc5698459bb04b6e8b3e191b0a
+MD5sum: 091f7ba44cc1485703451306e3c4ee9a
+Description: Wallpaper configuration for Utile OS 26 Abstract Assembly (arm64 defaults)
 
