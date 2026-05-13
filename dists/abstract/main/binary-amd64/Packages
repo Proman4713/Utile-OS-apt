@@ -61,16 +61,16 @@ Description: Utile Desktop metapackage
 Depends: utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme,nala,fastfetch
 
 Package: utile-gnome-defaults
-Version: 26.0~beta6
+Version: 26.0~beta7
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0~beta6_all.deb
-Size: 5492
-SHA256: 1220d424a5fd7f97d7d722b5db8b161e99d7736433a08964a0819b039b0225f1
-SHA1: cb2aa42ab6700f1bdb2e8caffa98d0ff010a305c
-MD5sum: 30f3c9d357c9dbf15db01c97ae7c1805
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0~beta7_all.deb
+Size: 5664
+SHA256: 8feedd6a6ab4d66a782b17ec5fba2d753be565028b33dc9ab7071037ebcde134
+SHA1: 3fe711fd93119ca80522dfd58f31c354e6ff56a1
+MD5sum: bfd3e5b07bf382a678abbca52ec41cad
 Description: Utile OS Default GNOME Configurations
 Depends: gnome-shell
 
@@ -89,16 +89,16 @@ Description: Utile OS Default GNOME Shell Extensions
 Depends: gnome-shell,gnome-shell-extension-gsconnect,gnome-shell-extension-gsconnect-browsers
 
 Package: utile-grub-theme
-Version: 26.0~beta1
+Version: 26.0~beta2
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.0~beta1_all.deb
-Size: 87468
-SHA256: 43de8538175c060b208c5c71018cae005bad1948f72d9080c41d93d2a813efa4
-SHA1: e5e1971b8adfa277d9dcd124ac29968b18032f01
-MD5sum: 04a92f4206410bfafb9ada66309d7a88
+Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.0~beta2_all.deb
+Size: 87446
+SHA256: 1afc6acf8ecad3456a6df695d3705944fa602782ead9ef6fa8a475cd090977ea
+SHA1: 53e1d48d57544d7dd4a6840a7b8b51d08e665896
+MD5sum: ccf7b122835dcdfa74df3b91975f3d8c
 Description: Utile OS Grub Theme and Fonts
 Depends: grub-common
 
