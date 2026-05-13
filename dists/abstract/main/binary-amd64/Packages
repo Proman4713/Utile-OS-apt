@@ -47,16 +47,16 @@ Description: Configuration for motd-news shipped in base-files
 Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
 Package: utile-desktop
-Version: 26.0~beta5
+Version: 26.0~beta6
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta5_all.deb
-Size: 1028
-SHA256: 033d6696e292653eb47bebab5694cbe4d9692ff126cf3944b03396f6d07730b2
-SHA1: 382b8e59d5831bd078fdbe8f92a2563699bec5c5
-MD5sum: 931252e98b4b8e43ec2cec0557b8cfba
+Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta6_all.deb
+Size: 1570
+SHA256: 1dc03225d7e7b9f8a2d741a1043b927c8232fccc9ec19810ddc9a56fa441f9b1
+SHA1: fa728f0ffc8f250a5b230a13ec79fb594d27be98
+MD5sum: de715cfb112c5329ecc9aa1118f0df6b
 Description: Utile Desktop metapackage
 Depends: utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme,nala,fastfetch
 
