@@ -61,16 +61,16 @@ Description: Utile Desktop metapackage
 Depends: utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme,nala,fastfetch
 
 Package: utile-gnome-defaults
-Version: 26.0~beta7
+Version: 26.0~beta8
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0~beta7_all.deb
-Size: 5664
-SHA256: 8feedd6a6ab4d66a782b17ec5fba2d753be565028b33dc9ab7071037ebcde134
-SHA1: 3fe711fd93119ca80522dfd58f31c354e6ff56a1
-MD5sum: bfd3e5b07bf382a678abbca52ec41cad
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0~beta8_all.deb
+Size: 5680
+SHA256: 4149ec696c3832e6b701d2963428476cadec57bf08a49b53e7cdaa02f8b2c1ee
+SHA1: e6514e6ca6a25fe742e837b85623ce2cb9d29d41
+MD5sum: 6074cef82f2ab5fc32714b11ed9c3516
 Description: Utile OS Default GNOME Configurations
 Depends: gnome-shell
 
