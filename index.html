@@ -23,7 +23,7 @@
 			<meta content="APT Repository" property="og:title" />
 			<meta property="og:description" content="APT repository hosting all Utile OS-specific packages." />
 
-			<meta content="https://raw.githubusercontent.com/Proman4713/Utile-OS/refs/heads/main/resources/Utile%20Transparent%20Lockup.png" property="og:image" />
+			<meta content="https://raw.githubusercontent.com/Proman4713/Utile-OS/refs/heads/main/resources/Utile%20Transparent%20Logo.png" property="og:image" />
 			<meta name="theme-color" content="#1A5E63" />
 
 			<meta content="https://github.com/Proman4713/Utile-OS-apt" property="og:url" />
@@ -76,6 +76,7 @@ echo "deb [signed-by=/etc/apt/keyrings/utile.gpg] https://proman4713.github.io/U
 	sudo tee /etc/apt/sources.list.d/utile.list
 sudo apt update`;
 	const LATEST_UTILE_CODENAME = "abstract";
+	const REPO_COMPONENTS = ["main", "upstream", "universe"];
 	const isString = false;
 
 	const codeblock = document.querySelector(".codeblock");
@@ -111,39 +112,61 @@ sudo apt update`;
 		loadPackages(arch);
 	}
 
-	async function loadPackages(arch) {
-		const response = await fetch(`./dists/${LATEST_UTILE_CODENAME}/main/binary-${arch}/Packages`);
-		const text = await response.text();
-		
-		const packages = text.split('\n\n').map(block => {
-			const lines = block.split('\n');
-			const obj = {};
-			lines.forEach(line => {
-				const [key, ...val] = line.split(': ');
-				if (key) obj[key] = val.join(': ');
-			});
-			return obj;
-		}).filter(p => p.Package);
+	async function fetchComponent(arch, component) {
+        try {
+            const response = await fetch(`./dists/${LATEST_UTILE_CODENAME}/${component}/binary-${arch}/Packages`);
+            if (!response.ok) return [];
+            
+            const text = await response.text();
+            return text.split('\n\n').map(block => {
+                const lines = block.split('\n');
+                const obj = { _component: component };
+                lines.forEach(line => {
+                    const [key, ...val] = line.split(': ');
+                    if (key) obj[key] = val.join(': ');
+                });
+                return obj;
+            }).filter(p => p.Package);
+        } catch (error) {
+            console.error(`Error loading component ${component}:`, error);
+            return [];
+        }
+    }
 
-		document.querySelector("#repository-list").innerHTML = packages.map(p => `
-			<div
-				class="flex-centre space-between package-item"
-				onclick='downloadPackage(${JSON.stringify(p)})'
-			>
-				<h3 style="font-family: Ubuntu Mono, monospace, sans-serif;">${p.Package} (${p.Section || "Unknown Section"})</h3>
-				<p>${p.Description} <b>(~${Math.round(parseInt(p.Size) / (1024)).toLocaleString("en-US")} KiB)</b></p>
-			</div>
-		`).join('');
+	async function loadPackages(arch) {
+		const repoList = document.querySelector("#repository-list");
+		repoList.innerHTML = `<div style="color: var(--primary-colour); padding: 20px;">Loading repository manifests...</div>`;
+		
+		const promises = REPO_COMPONENTS.map(comp => fetchComponent(arch, comp));
+		const componentResults = await Promise.all(promises);
+
+		const packages = componentResults.flat();
+		if (packages.length === 0) {
+            repoList.innerHTML = `<div style="color: #ff6b6b; padding: 20px;">No packages found for architecture: ${arch}</div>`;
+            return;
+        }
+
+		repoList.innerHTML = packages.map(p => {
+			const filename = p.Filename ? encodeURIComponent(p.Filename) : '';
+
+			return `
+				<div
+					class="flex-centre space-between package-item"
+					onclick='downloadPackage(${filename})'
+				>
+					<h3 style="font-family: Ubuntu Mono, monospace, sans-serif;">${p.Package} — ${p._component} <span style="opacity: 0.5;">(${p.Section || "Unknown Section"})</span></h3>
+					<p>${p.Description} <b style="opacity: 0.5;">(~${Math.round(parseInt(p.Size) / (1024)).toLocaleString("en-US")} KiB)</b></p>
+				</div>`
+		}).join('');
 	}
 
-	async function downloadPackage(package) {
-		console.log(package)
-		if (!package.Filename) {
+	async function downloadPackage(filename) {
+		if (!filename) {
 			window.alert("This package is not available for download");
 			return;
 		}
 
-		window.location.href = `./${package.Filename}`
+		window.location.href = `./${filename}`
 	}
 </script>
 </html>

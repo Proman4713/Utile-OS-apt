@@ -1,0 +1,48 @@
+Package: base-files
+Version: 1:14utile7.3
+Architecture: amd64
+Essential: yes
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 496
+Pre-Depends: awk
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.4.10-10ubuntu3)
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~), ubuntu-server (<< 1.453)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base, usr-is-merged
+Multi-Arch: foreign
+Priority: required
+Section: admin
+Filename: pool/upstream/b/base-files/base-files_14utile7.3_amd64.deb
+Size: 108416
+SHA256: 9cc27ab84471d7712c4d3a70018cb19659d25f04bed835e4d23d5e536b998af7
+SHA1: f4255d5c34f12165715bc674c560cd8460073838
+MD5sum: 0c4bf228dcf27439d0b38c245e29caac
+Description: Debian base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
+Package: motd-news-config
+Source: base-files
+Version: 1:14utile7.3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 52
+Breaks: base-files (<< 11ubuntu11)
+Replaces: base-files (<< 11ubuntu11)
+Priority: optional
+Section: admin
+Filename: pool/upstream/b/base-files/motd-news-config_14utile7.3_all.deb
+Size: 38334
+SHA256: 020902b7c2dc7a5524051777dadca02576e91f098c78adbe63f4806b5639a451
+SHA1: d3540bf42f96b5dc9aeffc1f9c6f0c4287245a3f
+MD5sum: 908f35be52944673422dff22af1c031b
+Description: Configuration for motd-news shipped in base-files
+ This package contains the configuration read by the motd-news script
+ shipped in the base-files package.
+ .
+ Install this package if you want motd-news to be enabled.
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
