@@ -36,9 +36,9 @@
 </head>
 <body style="background-color: var(--brand-colour);">
 	<div id="main" class="flex-container" style="background-color: #00000088; gap: 30px; padding: 50px 0px;">
-		<div class="flex-cmn-centre" style="gap: 10px">
-			<h1 style="font-family: Ubuntu, sans-serif; color: var(--primary-colour)">Utile OS APT Repository</h1>
-			<h3>Browse the APT repository that hosts all Utile OS-specific Debian packages</h3>
+		<div class="flex-cmn-centre" style="gap: 10px; width: 100%">
+			<h1 style="font-family: Ubuntu, sans-serif; color: var(--primary-colour); text-align: center">Utile OS APT Repository</h1>
+			<h3 style="text-align: center">Browse the APT repository that hosts all Utile OS-specific Debian packages</h3>
 			<div class="codeblock-container">
 				<button class="copy-to-clip" onclick="copyCode(this)">
 					<i class="fa-regular fa-copy"></i>
@@ -71,7 +71,7 @@
 
 <script>
 	const code = `# NOT RECOMMENDED OUTSIDE OF Utile OS
-curl -fsSL https://proman4713.github.io/Utile-OS-apt/public.key | sudo gpg --dearmor -o /etc/apt/keyrings/utile.gpg
+curl -fsSL "https://proman4713.github.io/Utile-OS-apt/public.key" | sudo gpg --dearmor -o "/etc/apt/keyrings/utile.gpg"
 echo "deb [signed-by=/etc/apt/keyrings/utile.gpg] https://proman4713.github.io/Utile-OS-apt/ abstract main upstream universe" |
 	sudo tee /etc/apt/sources.list.d/utile.list
 sudo apt update`;
