@@ -135,7 +135,6 @@ sudo apt update`;
 
 	async function loadPackages(arch) {
 		const repoList = document.querySelector("#repository-list");
-		repoList.innerHTML = `<div style="color: var(--primary-colour); padding: 20px;">Loading repository manifests...</div>`;
 		
 		const promises = REPO_COMPONENTS.map(comp => fetchComponent(arch, comp));
 		const componentResults = await Promise.all(promises);
@@ -147,15 +146,13 @@ sudo apt update`;
         }
 
 		repoList.innerHTML = packages.map(p => {
-			const filename = p.Filename ? encodeURIComponent(p.Filename) : '';
-
 			return `
 				<div
 					class="flex-centre space-between package-item"
-					onclick='downloadPackage(${filename})'
+					onclick='downloadPackage("${p.Filename}")'
 				>
 					<h3 style="font-family: Ubuntu Mono, monospace, sans-serif;">${p.Package} — ${p._component} <span style="opacity: 0.5;">(${p.Section || "Unknown Section"})</span></h3>
-					<p>${p.Description} <b style="opacity: 0.5;">(~${Math.round(parseInt(p.Size) / (1024)).toLocaleString("en-US")} KiB)</b></p>
+					<p style="font-weight: 600; font-size: 15px">${p.Description} <span style="opacity: 0.5; font-weight: bold;">(~${Math.round(parseInt(p.Size) / (1024)).toLocaleString("en-US")} KiB)</span></p>
 				</div>`
 		}).join('');
 	}
