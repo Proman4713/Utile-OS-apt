@@ -71,7 +71,7 @@
 
 <script>
 	const code = `# NOT RECOMMENDED OUTSIDE OF Utile OS
-curl -fsSL "https://proman4713.github.io/Utile-OS-apt/public.key" | sudo gpg --dearmor -o "/etc/apt/keyrings/utile.gpg"
+curl -fsSL "https://proman4713.github.io/Utile-OS-apt/public.key" | sudo gpg --dearmour -o "/etc/apt/keyrings/utile.gpg"
 echo "deb [signed-by=/etc/apt/keyrings/utile.gpg] https://proman4713.github.io/Utile-OS-apt/ abstract main upstream universe" |
 	sudo tee /etc/apt/sources.list.d/utile.list
 sudo apt update`;
@@ -149,20 +149,35 @@ sudo apt update`;
 			return `
 				<div
 					class="flex-centre space-between package-item"
+					data-filename="${p.Filename}"
 					onclick='downloadPackage("${p.Filename}")'
 				>
 					<h3 style="font-family: Ubuntu Mono, monospace, sans-serif;">${p.Package} — ${p._component} <span style="opacity: 0.5;">(${p.Section || "Unknown Section"})</span></h3>
 					<p style="font-weight: 600; font-size: 15px">${p.Description} <span style="opacity: 0.5; font-weight: bold;">(~${Math.round(parseInt(p.Size) / (1024)).toLocaleString("en-US")} KiB)</span></p>
 				</div>`
 		}).join('');
+
+		document.querySelectorAll(".package-item").forEach(e => {
+			e.addEventListener("mousedown", ev => {
+				if (ev.button !== 1) return;
+				ev.preventDefault();
+				const url = e.dataset.filename;
+				downloadPackage(url, true);
+			});
+		})
 	}
 
-	async function downloadPackage(filename) {
+	async function downloadPackage(filename, openInNewTab = false) {
 		if (!filename) {
 			window.alert("This package is not available for download");
 			return;
 		}
 
+		if (openInNewTab) {
+			console.log('opening in new tab');
+			window.open(`./${filename}`, '_blank');
+			return;
+		}
 		window.location.href = `./${filename}`
 	}
 </script>
