@@ -1,16 +1,16 @@
 Package: utile-desktop
-Version: 26.0~beta8
+Version: 26.0~beta9
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta8_all.deb
-Size: 1778
-SHA256: b72e9b27b43e58c60031ca48273f092f4fe928990f20b5e4fbbef87ccd2e8fd7
-SHA1: 37c925973b9e47232b27e5da7a3d856dae75023a
-MD5sum: 49c8205f9dc52947014aef59886c8c50
+Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta9_all.deb
+Size: 1786
+SHA256: ecedd5cf5e336fa9f003e3a63be0af401dc09b177f7945a33f34b7eed8f51844
+SHA1: eadb3eb85d5087ef647fefa3d54a64d2f2c8fe95
+MD5sum: 145a88564d81c4f2125e22feea3d4957
 Description: Utile Desktop metapackage
-Depends: utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme,nala,fastfetch
+Depends: utile-keyring,utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme,nala,fastfetch
 
 Package: utile-gnome-defaults
 Version: 26.0~beta9
@@ -53,6 +53,19 @@ SHA1: c1421b29dc6baf301533b4a6319ececb9c696d01
 MD5sum: d27b76eb1b1bbbae548fe8875a9c9dcd
 Description: Utile OS Grub Theme and Fonts
 Depends: grub-common
+
+Package: utile-keyring
+Version: 2026.05.23.1
+Architecture: all
+Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Priority: important
+Section: misc
+Filename: pool/main/u/utile-keyring/utile-keyring_2026.05.23.1_all.deb
+Size: 3046
+SHA256: ffe5e909bbacd8c3e2ed7360c968ced9b7f67ece6e5192c3abd1ea823c1524ce
+SHA1: 1b20874ab9a900a5ee9bd6b9cda18b9244b0383d
+MD5sum: 7525175be0e39ef5ec203dadd3dfdb6d
+Description: GPG keys for the Utile APT repository
 
 Package: utile-wallpapers
 Provides: ubuntu-wallpapers
