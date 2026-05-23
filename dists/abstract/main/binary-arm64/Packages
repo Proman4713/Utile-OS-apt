@@ -55,16 +55,16 @@ Description: Utile OS Grub Theme and Fonts
 Depends: grub-common
 
 Package: utile-keyring
-Version: 2026.05.23.1
+Version: 2026.05.23.2
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Priority: important
 Section: misc
-Filename: pool/main/u/utile-keyring/utile-keyring_2026.05.23.1_all.deb
+Filename: pool/main/u/utile-keyring/utile-keyring_2026.05.23.2_all.deb
 Size: 3046
-SHA256: ffe5e909bbacd8c3e2ed7360c968ced9b7f67ece6e5192c3abd1ea823c1524ce
-SHA1: 1b20874ab9a900a5ee9bd6b9cda18b9244b0383d
-MD5sum: 7525175be0e39ef5ec203dadd3dfdb6d
+SHA256: c504003891c1967635d10a318b17e287c5210f078e4f4c88871ca68342b57565
+SHA1: 8705a9b13b7365cad5ebf68db56c59d109436683
+MD5sum: 488bf2931032a8d742c62d3c6cdca059
 Description: GPG keys for the Utile APT repository
 
 Package: utile-wallpapers
