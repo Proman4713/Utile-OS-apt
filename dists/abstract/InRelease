@@ -2,13 +2,13 @@
 Hash: SHA512
 
 Codename: abstract
-Date: Wed, 15 Jul 2026 18:39:59 UTC
+Date: Wed, 15 Jul 2026 22:30:41 UTC
 Architectures: amd64 arm64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
 MD5Sum:
- 537656cbd54b6c1a92e8b26ec1666e14 3789 main/binary-amd64/Packages
- ed6e7bb0816b30fd6efe88ab7004f848 1496 main/binary-amd64/Packages.gz
+ 67f829fb68a0a3fe3160ff4a02b5c946 3789 main/binary-amd64/Packages
+ 584b40d784cd23151002be55e0b2acfa 1493 main/binary-amd64/Packages.gz
  bec08298868060fe5fdee93b9edb25af 105 main/binary-amd64/Release
  47158e19296406daca816709a999c574 3165 main/binary-arm64/Packages
  c0a9655b4d9d141e9e3934e19824a1ba 1222 main/binary-arm64/Packages.gz
@@ -26,8 +26,8 @@ MD5Sum:
  35ade47768dff50c055a5bfc91a7c740 503 upstream/binary-arm64/Packages.gz
  aad1c510ae47af783974cb8fb35d9949 109 upstream/binary-arm64/Release
 SHA1:
- d10fa68208e22b7101615399ee824779f3680f5e 3789 main/binary-amd64/Packages
- 4de13eb41f232a73ce234749e05898257c131776 1496 main/binary-amd64/Packages.gz
+ f533c98ffa20ce8fec6f5d34144dbdb68344879c 3789 main/binary-amd64/Packages
+ 78be42611cc6dcd84938ac0df781cce0e2f5b8f7 1493 main/binary-amd64/Packages.gz
  d02fe8bbe88037b4706620c55873c19c9d8f8137 105 main/binary-amd64/Release
  fb3aa2fa07d27b3c4206b258b486fd7864825e64 3165 main/binary-arm64/Packages
  0ce4b0f0963ff65c5311208e1dc4ba57eab858ae 1222 main/binary-arm64/Packages.gz
@@ -45,8 +45,8 @@ SHA1:
  c2ef14a23f47c528c7a953466fc3d0892635ab0a 503 upstream/binary-arm64/Packages.gz
  54a6dfac520de477023265d0d99b5aca3f9d11de 109 upstream/binary-arm64/Release
 SHA256:
- aadd48c7b7a278490955c98e83e18cad06511d63be8b4dc284c90eb051462075 3789 main/binary-amd64/Packages
- c1ef90129cafdaae0efecbda0e0f55d85e84b9dc201befa7d785715dc7ae8b9a 1496 main/binary-amd64/Packages.gz
+ ce2f47179defc23aceb4d8f0de0ebabeb4ad89ed85177b1481d51313d815469a 3789 main/binary-amd64/Packages
+ 0117cb373e78635f001f4ac763d8244ce58ed28196dea3da611227681cf2ab6d 1493 main/binary-amd64/Packages.gz
  7058defd0522d22e1c132d8caedc719d50a9fd5d828e5dae39f95985b30285e7 105 main/binary-amd64/Release
  f04030b62fb0091bc4ce6c4850573214ac4b42023a5cd54f8423ef073cdebd37 3165 main/binary-arm64/Packages
  19c1ba1e94734a4f151ccde8385a2a27c147274cc475331cb1e4cc17aa8807ee 1222 main/binary-arm64/Packages.gz
@@ -65,17 +65,17 @@ SHA256:
  d6934829209f2c8a624b3a2d52947ee2d0d43bdd4cbf6ae88f13aff6b6327ed8 109 upstream/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmpX1BEACgkQI1G/gGq8
-Ivgd7A/+JM6CYbXXKtFIybc5uECnAgUWmvlA5pzVB+KHVKAQF8nLq8YdOADbQEeb
-rld7t67WBkA08ZK+9KT1tLXXXyRQ6Y8sU+xT8eo8M/T9vYau7OLeiH1pl7fURo9J
-RdU9AHQzjp0OwlZ2EPjm7J8JZj9Lcx55VkihPgLsCsn4e/VS8L86sf/qaJicsRUR
-4LDwJOLIteV4Cnmo86+cBghXspXXVHEpNOwLf53i1iY9WDvioT+7u4Z9sPxnhJsh
-unHsrNxh3lE1qA/Qw2o1Lp+4g1GWw32wiQTJLUEiXng8l2oMTjsS34vkgLlKTxxO
-1v7kE41FNf9Aaxuo5YmkxEo7A29qSB1TjJ5mHDvcTR3Q4Wai4iY22XvduEZdMLgA
-GAV2F2cvaP4Z06AVBifDQOFS2uDFyH4zKdLnsEfjVoG1iOM5wU+PY61q3+lZdmFA
-qNk2At3aXKVRyJbAckxrZDK2hpXOkqglYMWi3UWkBHNuI4uberHzhspQUNpZ9W4v
-78YFfBumjfZYzYcvENsfM14m6JhdbYUSIcg+H+NX29lfxjMGce2anz3LpowfnLE/
-43oKlHhU6oRW70Jh/rEieVmFd8sxzapjNVheDazFlkARSsyyV0aKLfCkMzPbAI71
-G08jBKQj0g2zNmsxKS5lCHHoSIWJbL+UKvgU6eDm52cKBaEnE+k=
-=Fok4
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmpYCikACgkQI1G/gGq8
+IvihAw/7BfYx8fMmpsY/fzfRdAElMsOkUnXfZgJtTE+kjQIDcYdtOqkiMj+qLJfM
+Ydy27n8OneEqM7rtLvaQnVyhB/JLUUAzHxy5YVbjws2y2lUZiqP/4/tRUbGtgTan
+rHGFMyCeVQh5kkGAwzTuU4A7miEOy+q0LUKj5cDCetNgfPEG6fBP5i+trNvKFDnY
++u9hqcjHroPKIjQ8qGLUj9I6CjW5KSIWySgFLGhLrYHNUv3E0QcERhofeIi9yDT8
+MUi6Y8vCzTdt17AiIJ38fdBFfcTwvMBqZB2bAiBNP3AWoSmx9ifYuh3WCaxoFWY5
+aZhrTGQoWx/MkRmL6Z6O/4vyrZd6p85dYnisfwX3ZYkTm5J1b8na9pxeZjksYdOL
+VLMhogO5d0huYavWTuFQXlDmCr4ycaZLePagv6+yctfSooc59+MeNRDxZybyeXZJ
+4qk0yDAvjFg70qh3EXe1uE/N4KCK/e/rPMkKS5tBuzpymtkNb9VZG5WosI7rv56f
+tiUaQ+7OQBXhktjXSGoZDEh9NLYG3xXqFPdfWPo4Ia6uBTP1SPBEbI2K6jqjcHZe
+ECSr8ojP2vp0N9nXBGvzjjjRdz6+jHGWITu2ln22gCAnGc1xOfZQk/aANONc298k
+9veuo8v6u4ETYbcRERkR62IZGnD7bZfGyJ1k9631ieOk2ExTTF4=
+=KPcM
 -----END PGP SIGNATURE-----

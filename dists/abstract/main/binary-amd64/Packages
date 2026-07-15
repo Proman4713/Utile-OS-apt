@@ -1,16 +1,16 @@
 Package: create-gnome-project
-Version: 1.0.0
+Version: 1.1.0
 Architecture: amd64
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Installed-Size: 64
 Depends: gcc, git, libgtk-4-dev, build-essential, pkg-config, meson, ninja-build, libcurl4-openssl-dev, desktop-file-utils
 Priority: optional
 Section: utils
-Filename: pool/main/c/create-gnome-project/create-gnome-project_1.0.0_amd64.deb
-Size: 25726
-SHA256: 13b48779a4b0552dd5f63013e1398e3ccbf60c4ad4b2a7e03630b3ce347d173c
-SHA1: aa0f3bc2b4d0924bad09a51f1ba6768754ae6290
-MD5sum: 3623b0be2ae294386da06b5d9e1007d9
+Filename: pool/main/c/create-gnome-project/create-gnome-project_1.1.0_amd64.deb
+Size: 26182
+SHA256: 14b357fbf5117bbd953240c27d4954d78c004f7708eb6524a914c9ce66f58470
+SHA1: ed4a77fa08a66e0eb370d45509cc4bd65c0acd2d
+MD5sum: 20da53edca894032939bbf1f4811618f
 Description: Create basic GNOME shell extensions and GTK4/Libadwaita apps
 
 Package: utile-desktop
