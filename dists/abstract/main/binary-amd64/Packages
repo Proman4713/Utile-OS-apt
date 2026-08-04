@@ -28,32 +28,34 @@ Description: Utile Desktop metapackage
 Depends: utile-keyring,utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme,nala,fastfetch
 
 Package: utile-gnome-defaults
-Version: 26.0~beta9
+Version: 26.0~beta10
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Installed-Size: 32
+Depends: gnome-shell
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0~beta9_all.deb
-Size: 5694
-SHA256: b3d19e4b282af7cf87ddb4d5a5be37618ceb66f65eed3d772c2157e27fb3f540
-SHA1: 044344a8c26497ae971a679249781cf751fc65ae
-MD5sum: 68004449db6779f2f50f781948a1209b
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0~beta10_all.deb
+Size: 6414
+SHA256: a9b97bd6e52f4090eb21c85804f0564a96fb8b3735e7882da9b071868929910f
+SHA1: 0ab8cd469d7e7f56a77ba867f68430023cf462b0
+MD5sum: 960c198ab2ca613fde0778bec14d6076
 Description: Utile OS Default GNOME Configurations
-Depends: gnome-shell
 
 Package: utile-gnome-shell-extensions
-Version: 26.0~beta6
+Version: 26.0~beta7
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Installed-Size: 8133
+Depends: gnome-shell, gnome-browser-connector, gnome-shell-extension-gsconnect, gnome-shell-extension-gsconnect-browsers
 Priority: optional
 Section: utils
-Filename: pool/main/u/utile-gnome-shell-extensions/utile-gnome-shell-extensions_26.0~beta6_all.deb
-Size: 2620254
-SHA256: 6ef95e95f4fddb92df3cc32a5641f50606381c098f4a870bf9ed45fc29a01d5d
-SHA1: 20a119e986fcb1e12f96954cadfc8431759472bc
-MD5sum: 09a266803de3a03f63671a5145f04f90
+Filename: pool/main/u/utile-gnome-shell-extensions/utile-gnome-shell-extensions_26.0~beta7_all.deb
+Size: 2716266
+SHA256: 54389e996eb8da253759373aa3e9cd4e97099433ba4d3d8c99c2d36bcee0094a
+SHA1: 78f922c3785b7605ff31ccc6834ef0bf02ed0e89
+MD5sum: e25fbcdea700161b7465f3f487dd922f
 Description: Utile OS Default GNOME Shell Extensions
-Depends: gnome-shell,gnome-browser-connector,gnome-shell-extension-gsconnect,gnome-shell-extension-gsconnect-browsers
 
 Package: utile-grub-theme
 Version: 26.0~beta3
