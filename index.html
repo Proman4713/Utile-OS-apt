@@ -51,9 +51,6 @@
 			<button class="arch-btn active-arch" onclick="selectArch(this)">
 				AMD64
 			</button>
-			<button class="arch-btn" onclick="selectArch(this)">
-				ARM64
-			</button>
 		</div>
 		<div
 			id="repository-list"
@@ -70,7 +67,7 @@
 <script src="https://kit.fontawesome.com/8e0cd6ed4d.js" crossorigin="anonymous"></script>
 
 <script>
-	const code = `# NOT RECOMMENDED OUTSIDE OF Utile OS
+	const code = `# UNNECESSARY IN Utile OS (for non-Utile systems, download packages from this page)
 curl -fsSL "https://proman4713.github.io/Utile-OS-apt/public.key" | sudo gpg --dearmour -o "/etc/apt/keyrings/utile.gpg"
 echo "deb [signed-by=/etc/apt/keyrings/utile.gpg] https://proman4713.github.io/Utile-OS-apt/ abstract main upstream universe" |
 	sudo tee /etc/apt/sources.list.d/utile.list

@@ -1,5 +1,5 @@
 Codename: abstract
-Architectures: amd64 arm64
+Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
 SignWith: 2351BF806ABC22F8
