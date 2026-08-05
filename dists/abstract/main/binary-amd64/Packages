@@ -14,18 +14,19 @@ MD5sum: 4b31a0672b9744e07a34182a0a8d4e22
 Description: A simple C utility that creates a template GNOME shell extension or GTK4 application
 
 Package: utile-desktop
-Version: 26.0~beta9
+Version: 26.0~beta10
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Installed-Size: 12
+Depends: utile-keyring, utile-gnome-shell-extensions, utile-gnome-defaults, utile-wallpapers, base-files, utile-grub-theme, nala, fastfetch
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta9_all.deb
-Size: 1786
-SHA256: ecedd5cf5e336fa9f003e3a63be0af401dc09b177f7945a33f34b7eed8f51844
-SHA1: eadb3eb85d5087ef647fefa3d54a64d2f2c8fe95
-MD5sum: 145a88564d81c4f2125e22feea3d4957
+Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta10_all.deb
+Size: 2252
+SHA256: ebd8402041c05d980de1e4fc0cb82c04e4b6f7dd0981f5dc98ef3bb007f7d920
+SHA1: 69f3809a7e1f7664c3ecf4c3e29e26d963f13854
+MD5sum: d38e851fd5d652126c55845e9aa97e35
 Description: Utile Desktop metapackage
-Depends: utile-keyring,utile-gnome-shell-extensions,utile-gnome-defaults,utile-wallpapers,base-files,utile-grub-theme,nala,fastfetch
 
 Package: utile-gnome-defaults
 Version: 26.0~beta11
@@ -85,18 +86,19 @@ MD5sum: 488bf2931032a8d742c62d3c6cdca059
 Description: GPG keys for the Utile APT repository
 
 Package: utile-wallpapers
-Provides: ubuntu-wallpapers
-Replaces: ubuntu-wallpapers
-Conflicts: ubuntu-wallpapers
-Version: 26.0~beta6
+Version: 26.0~beta7
 Architecture: amd64
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Installed-Size: 23841
+Conflicts: ubuntu-wallpapers
+Replaces: ubuntu-wallpapers
+Provides: ubuntu-wallpapers
 Priority: optional
 Section: graphics
-Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.0~beta6_amd64.deb
-Size: 24369382
-SHA256: 3f53aa200bc281cc4420cad092dd23e14b7feaf4424f32afa41ebafab6709741
-SHA1: 3077109489f46802cac267c33ddde6a067dedb23
-MD5sum: e4c012cd799589b06b23b92a023c1989
-Description: Wallpaper configuration for Utile OS 26 Abstract Assembly (amd64 defaults)
+Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.0~beta7_amd64.deb
+Size: 24368906
+SHA256: 9e6c800b89bdb867ff28fb225eee41e2908f3748a33a733704a24bc2146bc7b0
+SHA1: 1d46255348a727164296da8b4d66d21815805dc1
+MD5sum: 10fa1c536ab2f8b2aa741f76008af364
+Description: Wallpaper configuration for Utile OS 26 Abstract Assembly
 
