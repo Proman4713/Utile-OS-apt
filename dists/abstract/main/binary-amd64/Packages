@@ -14,18 +14,18 @@ MD5sum: 4b31a0672b9744e07a34182a0a8d4e22
 Description: A simple C utility that creates a template GNOME shell extension or GTK4 application
 
 Package: utile-desktop
-Version: 26.0~beta10
+Version: 26.0~beta11
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Installed-Size: 12
 Depends: utile-keyring, utile-gnome-shell-extensions, utile-gnome-defaults, utile-wallpapers, base-files, utile-grub-theme, nala, fastfetch
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta10_all.deb
-Size: 2252
-SHA256: ebd8402041c05d980de1e4fc0cb82c04e4b6f7dd0981f5dc98ef3bb007f7d920
-SHA1: 69f3809a7e1f7664c3ecf4c3e29e26d963f13854
-MD5sum: d38e851fd5d652126c55845e9aa97e35
+Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta11_all.deb
+Size: 2364
+SHA256: 53da5c4cf1b422608d7d668a322f33b3239d95ebdae1dc09671416f34f7081c6
+SHA1: 3835f9934043d04bb6c7a319e15985ff63c948e5
+MD5sum: 8ce94c43e6fd376b4b2527ccc2fcee84
 Description: Utile Desktop metapackage
 
 Package: utile-gnome-defaults
@@ -73,17 +73,18 @@ Description: Utile OS Grub Theme and Fonts
 Depends: grub-common
 
 Package: utile-keyring
-Version: 2026.05.23.2
+Version: 2026.08.06.1
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Installed-Size: 11
 Priority: important
 Section: misc
-Filename: pool/main/u/utile-keyring/utile-keyring_2026.05.23.2_all.deb
-Size: 3046
-SHA256: c504003891c1967635d10a318b17e287c5210f078e4f4c88871ca68342b57565
-SHA1: 8705a9b13b7365cad5ebf68db56c59d109436683
-MD5sum: 488bf2931032a8d742c62d3c6cdca059
-Description: GPG keys for the Utile APT repository
+Filename: pool/main/u/utile-keyring/utile-keyring_2026.08.06.1_all.deb
+Size: 3302
+SHA256: e7a802609b2ba8b91737de8d062dd057b2869441f48735bbcc0e05daf2f4d390
+SHA1: 559134109edcbc6dbda21523b2830dae109d24b5
+MD5sum: a664f6a5cef08ff876c97c653e674154
+Description: GnuPG keys of the Utile archive
 
 Package: utile-wallpapers
 Version: 26.0~beta7

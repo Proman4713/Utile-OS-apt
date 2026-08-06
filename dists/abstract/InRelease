@@ -2,13 +2,13 @@
 Hash: SHA512
 
 Codename: abstract
-Date: Wed, 05 Aug 2026 15:24:46 UTC
+Date: Thu, 06 Aug 2026 13:29:37 UTC
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
 MD5Sum:
- 121b67816f379eb067202ac5e24f3f2c 3891 main/binary-amd64/Packages
- c5d425620e029c1ddb4aae23dba2e5f7 1522 main/binary-amd64/Packages.gz
+ df7b4cb518b50e09d77213e68aaedc01 3904 main/binary-amd64/Packages
+ d1d9802fe99fcccc961c0eab0a091ba6 1517 main/binary-amd64/Packages.gz
  bec08298868060fe5fdee93b9edb25af 105 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
@@ -17,8 +17,8 @@ MD5Sum:
  f3e60cf17df09651487b8fe693d350ad 977 upstream/binary-amd64/Packages.gz
  7e02fa30a6ec95524b6c6a372a4a4292 109 upstream/binary-amd64/Release
 SHA1:
- f9f5eeb1a48c6cdae2f5c7416c1579b89d5488c6 3891 main/binary-amd64/Packages
- cf4d6b70f5d63ee250fec70c568a43c7d45f7bbd 1522 main/binary-amd64/Packages.gz
+ d8631732d600229a78e1405db8c80e7f6eb2c17c 3904 main/binary-amd64/Packages
+ 431aff3b15858955431f8392990d8569ed99ccaf 1517 main/binary-amd64/Packages.gz
  d02fe8bbe88037b4706620c55873c19c9d8f8137 105 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
@@ -27,8 +27,8 @@ SHA1:
  448bf06d7f2121df458f585cb52008f51ba3e73a 977 upstream/binary-amd64/Packages.gz
  500b6f40c6d1a4f211623fe3e85d5632a786499c 109 upstream/binary-amd64/Release
 SHA256:
- 8ed4ae8af7034cf222b52fe615900ef8df576a32be51d4732f6d5f31b436d1ca 3891 main/binary-amd64/Packages
- 8c1f88fb7cecec92a802b2131632d013b664906688f969b026f318e7885b55ae 1522 main/binary-amd64/Packages.gz
+ 578af83d4e7afe370a076e20b9289a91ae3df0692ba21353ef51efe75fd7c9e1 3904 main/binary-amd64/Packages
+ 37051cf59ba9d6d049454e7e078f51cccc0a961d4d304a17e744c99f7bce640b 1517 main/binary-amd64/Packages.gz
  7058defd0522d22e1c132d8caedc719d50a9fd5d828e5dae39f95985b30285e7 105 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
@@ -38,17 +38,17 @@ SHA256:
  5c4f1734610d7d07114d2e329d318579b76c8c8c7da08229c6176859a46386f5 109 upstream/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmpzVb4ACgkQI1G/gGq8
-IvjmJBAAgG0kG8x8AhI1gpFXLylY0rZ1dSiREC3FiK5YHJmYJ2WIu7h5bb3/YPGc
-Fv8RlGgieGZtTEqAGUE72yneysxSkGFLhLtO5pja6yvAvVrOQMaCRXAAlG0cyRVZ
-0K3fz+mS1hW6wVHuW18JczbHRv7ROmEn5OMuYS3Fs63sWNSSOba2RKu5wrx63ilB
-9u/T9RxjABqmICM/kgQXlT8VpGGJbnhctmz7tNFwdJqP+2vEgI3KytHZjP9jnw7D
-K8pA2ZruExYhIpQFTC1Vj997eBKufN/lw+PH5OOeNLkl1TBga9NJeCKkdzXAnBG/
-fkzI84/JWfNTioijPblM3TLW9uVJIvf/QcHknMyqKk42rH7EUUrL4ifgbwycMQyJ
-IHne1SjQfBkDyox5GQg4M+1wqzGb068OVGPhA79B0Lf1RgAA3RMsYmlLE6yOQxh4
-BvP1RYBwZW51ci9gszKU6JHy04FXOXzPtNNBdPptuqr28Wk7Y6GkUiTrSGpxlavU
-Z1/HhXz7FenQTK9TNeKFhGuMNoILGUxWTMIG8jjF9UJlSTTVIrBm/+i1OrrweM/N
-+GhyhS2CasX9Tv7EG+BJ0nI1rMpKTgUZDSqlhzl9TdIk1RQM7wtq7LxptWjTfQg1
-2LbZpMvZyrzEOC7hZRpWgDjLY6Ea2+bMfhfyL+JaIL90ONpP/Pw=
-=M7z5
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmp0jEEACgkQI1G/gGq8
+IvjlAw/+Mj+xNSiLvfzzeCYCUfaZTB0+2ysqhMI3GxDARPrDTlM+lWV0kB5wB1Dh
+cvc656zFUn2pVnrZd2nu0FtR/wf3RLzO2Y0vArE0a9sfqOpyk8jUg6exreGhD4bI
+Nm7bGXQK/LVKzu6HVlDd5et6dfsutSntMlSlQc9faCzrAf6nVvrJQkKVRelsPB40
+FJBJ/+aNlrbS2FYrHJicY3+zR+olPIR76NVyWngpjf2lQneklIY4tfmCEKj5BPzr
+OD/eC2zev+8VD7qExKoe5QNQVbkKlGrrD9xE4qgy/piuR2wtSMQ4LTwdP7Z8Cj2J
+0uOep0gKMUaADffj9FF5t/KTwVfB8XACiMqqMAbpt4n3ws0kTJL69khDlWhGO1Lu
+r2C/yEtyaU+YPMb7efMNZIX7oP/3aT8Gn9RV7TQ5+ayFP+ru/EtDMARAu9rUFLnM
+2g5Hvl63Q8jMCXi+yIGXhOv7O3yC3CwNawkbLte2SZvWoU6+k1Khl3kKQny//29H
+/YHW5koNhTL7HevVFVh05qJY+nD8qOTzUF8WisbKy68FwdY9y7NgMxhmMEBri9cz
+ALUBJjl1juJtZpQ6x046a8Jc/2TFQXYDec1s6Y5K3YLZyZy16iApKTbNqSEeIzUn
+vTpgVSe9TjTK3pVp+b6z1wbbyE3q979MAK7GFykRgiVzro+hYko=
+=mLSr
 -----END PGP SIGNATURE-----
