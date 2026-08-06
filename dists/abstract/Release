@@ -3,13 +3,13 @@ Label: Utile OS
 Suite: abstract
 Codename: abstract
 Version: 26
-Date: Thu, 06 Aug 2026 13:55:29 UTC
+Date: Thu, 06 Aug 2026 14:08:31 UTC
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
 MD5Sum:
- df7b4cb518b50e09d77213e68aaedc01 3904 main/binary-amd64/Packages
- d1d9802fe99fcccc961c0eab0a091ba6 1517 main/binary-amd64/Packages.gz
+ e2b4ff5de920de3b86a8eaa221212d8f 3904 main/binary-amd64/Packages
+ 5e2d440ac8d76ce5701783efb10d43e3 1518 main/binary-amd64/Packages.gz
  8b32619ef7e42911f5d1f854fb69090f 168 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
@@ -18,8 +18,8 @@ MD5Sum:
  f3e60cf17df09651487b8fe693d350ad 977 upstream/binary-amd64/Packages.gz
  d0b7de9518d1cc1a56bf21bfaf6acfbe 172 upstream/binary-amd64/Release
 SHA1:
- d8631732d600229a78e1405db8c80e7f6eb2c17c 3904 main/binary-amd64/Packages
- 431aff3b15858955431f8392990d8569ed99ccaf 1517 main/binary-amd64/Packages.gz
+ fbc9d2aed363af3a6ea0a10214956888c696b12c 3904 main/binary-amd64/Packages
+ 9515575620b7907272a07116c809e758c526c76c 1518 main/binary-amd64/Packages.gz
  0d5a103fd7ae46f401b87083eb7fe7b2aab8c41d 168 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
@@ -28,8 +28,8 @@ SHA1:
  448bf06d7f2121df458f585cb52008f51ba3e73a 977 upstream/binary-amd64/Packages.gz
  92930fa668919b5e243bfb3287d8beb9b461aac3 172 upstream/binary-amd64/Release
 SHA256:
- 578af83d4e7afe370a076e20b9289a91ae3df0692ba21353ef51efe75fd7c9e1 3904 main/binary-amd64/Packages
- 37051cf59ba9d6d049454e7e078f51cccc0a961d4d304a17e744c99f7bce640b 1517 main/binary-amd64/Packages.gz
+ 7876425ebfa726d6d31faf04306eb9622b5f2377831d914c9aace9589443a0ec 3904 main/binary-amd64/Packages
+ 601fc1aae63f74e73392071a678d6bf8ff2e5eb69357cf6bbb3747b8c57e7191 1518 main/binary-amd64/Packages.gz
  c6b88820ce3ba5193bb68ba5fcb6e9e3f54f084d8875dec6f2acd262f947f0de 168 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
