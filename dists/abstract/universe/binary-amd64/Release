@@ -1,3 +1,7 @@
+Archive: abstract
+Version: 26
 Component: universe
+Origin: Utile OS
+Label: Utile OS
 Architecture: amd64
 Description: Official Repository for Utile 26.04 (Abstract Assembly)

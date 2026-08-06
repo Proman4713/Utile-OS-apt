@@ -1,4 +1,8 @@
+Origin: Utile OS
+Label: Utile OS
 Codename: abstract
+Suite: abstract
+Version: 26
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)

@@ -1,54 +1,58 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
+Origin: Utile OS
+Label: Utile OS
+Suite: abstract
 Codename: abstract
-Date: Thu, 06 Aug 2026 13:29:37 UTC
+Version: 26
+Date: Thu, 06 Aug 2026 13:55:29 UTC
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
 MD5Sum:
  df7b4cb518b50e09d77213e68aaedc01 3904 main/binary-amd64/Packages
  d1d9802fe99fcccc961c0eab0a091ba6 1517 main/binary-amd64/Packages.gz
- bec08298868060fe5fdee93b9edb25af 105 main/binary-amd64/Release
+ 8b32619ef7e42911f5d1f854fb69090f 168 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
- 495d7229abaad231783b55d0e3848b22 109 universe/binary-amd64/Release
+ 315a449d632d8bd7031e85b264dd52ed 172 universe/binary-amd64/Release
  e633b6158fa0d221e4211c74ec9cb776 1957 upstream/binary-amd64/Packages
  f3e60cf17df09651487b8fe693d350ad 977 upstream/binary-amd64/Packages.gz
- 7e02fa30a6ec95524b6c6a372a4a4292 109 upstream/binary-amd64/Release
+ d0b7de9518d1cc1a56bf21bfaf6acfbe 172 upstream/binary-amd64/Release
 SHA1:
  d8631732d600229a78e1405db8c80e7f6eb2c17c 3904 main/binary-amd64/Packages
  431aff3b15858955431f8392990d8569ed99ccaf 1517 main/binary-amd64/Packages.gz
- d02fe8bbe88037b4706620c55873c19c9d8f8137 105 main/binary-amd64/Release
+ 0d5a103fd7ae46f401b87083eb7fe7b2aab8c41d 168 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
- 662f83c3464609e5331b1531d5d74c6ce4b6d166 109 universe/binary-amd64/Release
+ 962e36a5d768242f5326f22e5d160b983a60394e 172 universe/binary-amd64/Release
  21b4164c45d22985a4051c26e38e90ab1272b202 1957 upstream/binary-amd64/Packages
  448bf06d7f2121df458f585cb52008f51ba3e73a 977 upstream/binary-amd64/Packages.gz
- 500b6f40c6d1a4f211623fe3e85d5632a786499c 109 upstream/binary-amd64/Release
+ 92930fa668919b5e243bfb3287d8beb9b461aac3 172 upstream/binary-amd64/Release
 SHA256:
  578af83d4e7afe370a076e20b9289a91ae3df0692ba21353ef51efe75fd7c9e1 3904 main/binary-amd64/Packages
  37051cf59ba9d6d049454e7e078f51cccc0a961d4d304a17e744c99f7bce640b 1517 main/binary-amd64/Packages.gz
- 7058defd0522d22e1c132d8caedc719d50a9fd5d828e5dae39f95985b30285e7 105 main/binary-amd64/Release
+ c6b88820ce3ba5193bb68ba5fcb6e9e3f54f084d8875dec6f2acd262f947f0de 168 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
- 79e2d92be03ab16b8dd16ff623d40ce69fbb6c750f921738f44bf99776acc748 109 universe/binary-amd64/Release
+ 920967e5fc8218c7fe7c0ac728f1f286867f1fee27d36234e2441feee0befa56 172 universe/binary-amd64/Release
  b809e15bcf1ed98a81609d0697cb71967283171584ec3c8ce6a3e8eb6641f2ad 1957 upstream/binary-amd64/Packages
  76f56aa325e7dfc3840f9f860155ba141a4fceec9ae28638052a386f92ff9d4c 977 upstream/binary-amd64/Packages.gz
- 5c4f1734610d7d07114d2e329d318579b76c8c8c7da08229c6176859a46386f5 109 upstream/binary-amd64/Release
+ f016852c0ac69894b40f61102197886465f027e092d8bfad19cdb73040ffd9ef 172 upstream/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmp0jEEACgkQI1G/gGq8
-IvjlAw/+Mj+xNSiLvfzzeCYCUfaZTB0+2ysqhMI3GxDARPrDTlM+lWV0kB5wB1Dh
-cvc656zFUn2pVnrZd2nu0FtR/wf3RLzO2Y0vArE0a9sfqOpyk8jUg6exreGhD4bI
-Nm7bGXQK/LVKzu6HVlDd5et6dfsutSntMlSlQc9faCzrAf6nVvrJQkKVRelsPB40
-FJBJ/+aNlrbS2FYrHJicY3+zR+olPIR76NVyWngpjf2lQneklIY4tfmCEKj5BPzr
-OD/eC2zev+8VD7qExKoe5QNQVbkKlGrrD9xE4qgy/piuR2wtSMQ4LTwdP7Z8Cj2J
-0uOep0gKMUaADffj9FF5t/KTwVfB8XACiMqqMAbpt4n3ws0kTJL69khDlWhGO1Lu
-r2C/yEtyaU+YPMb7efMNZIX7oP/3aT8Gn9RV7TQ5+ayFP+ru/EtDMARAu9rUFLnM
-2g5Hvl63Q8jMCXi+yIGXhOv7O3yC3CwNawkbLte2SZvWoU6+k1Khl3kKQny//29H
-/YHW5koNhTL7HevVFVh05qJY+nD8qOTzUF8WisbKy68FwdY9y7NgMxhmMEBri9cz
-ALUBJjl1juJtZpQ6x046a8Jc/2TFQXYDec1s6Y5K3YLZyZy16iApKTbNqSEeIzUn
-vTpgVSe9TjTK3pVp+b6z1wbbyE3q979MAK7GFykRgiVzro+hYko=
-=mLSr
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmp0kl8ACgkQI1G/gGq8
+Ivi2xw//QzRhVGS6lkDJDnShRyPN8k68hJjkLeO4akWtBu98waMcr1H6ifCZ7r0c
+Zyk0m4XPfGO/ER4qLQC0taFYKE1y21OA4Z1ENhDZVmnp33+IJj2AU8wQIsCpy9vh
+k1vfB0oU+aIl7IE7mdwmUBtcVSL8ybJusP4RpMiTJpIKKrebL+1PL9uQ2U/Mnl1m
+GOe7Ybu2Q2zPHjrYs3OvC8VQGDvKaUlUi50jypuYNDdlP/lAY1RCWapbEPpqSM0L
+6NByusbuFuWxH5W1MRGMqw5nr6066oKEaLZDWYDr8XFEqHqb/PzJijMVtho+Tbvu
+ke2oAykJboQYPOkHpiTW9RYAUls0mZFtzvK2PK+6PlRS/AW1bwrSlnzUT5SFCTtT
+W3vYsquvi67suHRbqobY9F0xlws4INbaqW7Vivmr/hr1wEBT1lmGBp/1CrGJHfHJ
+va7D2zjkaxQITwpV7IqfnNaryLS+ecI8nAHoRMeUomBy5/vJq4sNLgqLWfwyUNio
+dQFmX8qtFdbuSuoNQt0uxdeu2xVe0SccGr+lZK74PuylGQMLP3zdB+nebPNCVtVh
+7kC60ADyHUL+dioao0pKFQ5J1JVDuuGR1Qsae/Z1A8blduaMn9ioicdnmsp7RKRk
+4DpZF/IKBOpXaNWB1JZGSc6nD9MVBEGorQWLzfXyKr8CWPDtl3o=
+=m2h1
 -----END PGP SIGNATURE-----
