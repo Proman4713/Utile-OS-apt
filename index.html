@@ -149,7 +149,7 @@ sudo apt update`;
 					data-filename="${p.Filename}"
 					onclick='downloadPackage("${p.Filename}")'
 				>
-					<h3 style="font-family: Ubuntu Mono, monospace, sans-serif;">${p.Package} — ${p._component} <span style="opacity: 0.5;">(${p.Section || "Unknown Section"})</span></h3>
+					<h3 style="font-family: Ubuntu Mono, monospace, sans-serif;">${p.Package}<span style="opacity: 0.5;">@${p.Version}</span> — ${p._component} <span style="opacity: 0.5;">(${p.Section || "Unknown Section"})</span></h3>
 					<p style="font-weight: 600; font-size: 15px">${p.Description} <span style="opacity: 0.5; font-weight: bold;">(~${Math.round(parseInt(p.Size) / (1024)).toLocaleString("en-US")} KiB)</span></p>
 				</div>`
 		}).join('');
