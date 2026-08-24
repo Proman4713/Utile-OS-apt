@@ -26,19 +26,19 @@ Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
 Package: calamares-settings-ubuntu-common
 Source: utile-calamares-settings
-Version: 2
+Version: 2-1
 Architecture: amd64
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Installed-Size: 49
-Depends: calamares (>= 3.2.14~), cryptsetup, kdialog, keyutils, python3, python3-distro, qml-module-qtquick-window2, qml-module-qtquick2, qt5-style-kvantum, qt6-style-kvantum, kvantum, squashfs-tools, sudo
+Depends: calamares (>= 3.2.14~), cryptsetup, kdialog, keyutils, python3, python3-distro, qml-module-qtquick-window2, qml-module-qtquick2, qt5-style-kvantum, qt6-style-kvantum, squashfs-tools, sudo
 Homepage: https://github.com/Proman4713/utile-calamares-settings
 Priority: optional
 Section: devel
-Filename: pool/upstream/u/utile-calamares-settings/calamares-settings-ubuntu-common_2_amd64.deb
-Size: 7028
-SHA256: e741c187ff8396fb7aaa7a810b8ff52f9f2a000d65af9fe27c9e9e1e0122dd79
-SHA1: 2bd34564caf760d148104a170ec30dc57af8375e
-MD5sum: 6f2be333212ca35819f14dd5dec5ce19
+Filename: pool/upstream/u/utile-calamares-settings/calamares-settings-ubuntu-common_2-1_amd64.deb
+Size: 7088
+SHA256: fe431742d79329405d778abef0106204a143711b1d56d00fb8effb9a93da7ac2
+SHA1: f19a8b600fd51f5fb8a74a00c9efd70b65acd30e
+MD5sum: dc9f5d3a0991dfc058e7af1eee427dbc
 Description: Common Calamares Settings
  This package contains the common Calamares settings for all flavors.
  There is also a automirror Python script to set sources based on
