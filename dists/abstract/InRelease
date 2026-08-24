@@ -6,53 +6,53 @@ Label: Utile OS
 Suite: abstract
 Codename: abstract
 Version: 26
-Date: Mon, 24 Aug 2026 01:36:48 UTC
+Date: Mon, 24 Aug 2026 11:10:28 UTC
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
 MD5Sum:
- 3aae9d2e587f46349673888a5602b424 4830 main/binary-amd64/Packages
- 5be9b774dca116332ae7a1478e6cf7ea 1848 main/binary-amd64/Packages.gz
+ d94a1f00b698cb6ff21b6c048831952f 4830 main/binary-amd64/Packages
+ 609d642820f79f42dca1b2b05fa7d995 1850 main/binary-amd64/Packages.gz
  8b32619ef7e42911f5d1f854fb69090f 168 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
  315a449d632d8bd7031e85b264dd52ed 172 universe/binary-amd64/Release
- 7a6976f91d66a9fce5731ea293ef01a6 3028 upstream/binary-amd64/Packages
- c992adf2923fd93174653d22e4dc2753 1423 upstream/binary-amd64/Packages.gz
+ 9ee6b0480447db792c4abdf224c0cbb3 2900 upstream/binary-amd64/Packages
+ 0797f88c4f4a1db46571f2c71f317c14 1372 upstream/binary-amd64/Packages.gz
  d0b7de9518d1cc1a56bf21bfaf6acfbe 172 upstream/binary-amd64/Release
 SHA1:
- cf23668b65c7333e159465378babd2cfa2c2903c 4830 main/binary-amd64/Packages
- 10d4faaf6b6910d6a38a6fccde73824f025ec1db 1848 main/binary-amd64/Packages.gz
+ 8ac574d5dc9589e2d4a790320e73f9bb1f125ce5 4830 main/binary-amd64/Packages
+ e57564399ff72addfa0d6832a112574ae0990373 1850 main/binary-amd64/Packages.gz
  0d5a103fd7ae46f401b87083eb7fe7b2aab8c41d 168 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
  962e36a5d768242f5326f22e5d160b983a60394e 172 universe/binary-amd64/Release
- 6d1138dbd4d81565c2d1ebd1fd04dc4240c47b61 3028 upstream/binary-amd64/Packages
- a2d05f0b22d250eb074e4f95be4caf550095c2ee 1423 upstream/binary-amd64/Packages.gz
+ 60bcf34cd0ad80e9845f0e93da371c54e6971145 2900 upstream/binary-amd64/Packages
+ ddfe2ddc6c9e25e740fa64cbddec7ed4800f22d9 1372 upstream/binary-amd64/Packages.gz
  92930fa668919b5e243bfb3287d8beb9b461aac3 172 upstream/binary-amd64/Release
 SHA256:
- 9ea411c2bb552a1fd4fa09febe33a5e605c4885821e036c57ea5c507e427efd4 4830 main/binary-amd64/Packages
- a026b4fbcfcb5944c8c2a88aace2a897e2e9f9050f63382992749302617184e2 1848 main/binary-amd64/Packages.gz
+ 4b7a18c67587053b6e7a2a6db38f660a226858adeae3b7a190041ec7c832e1ed 4830 main/binary-amd64/Packages
+ 14c05e06b4d694476012ca2c301bed6ad1512b5438de666df0080a94322f3a98 1850 main/binary-amd64/Packages.gz
  c6b88820ce3ba5193bb68ba5fcb6e9e3f54f084d8875dec6f2acd262f947f0de 168 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
  920967e5fc8218c7fe7c0ac728f1f286867f1fee27d36234e2441feee0befa56 172 universe/binary-amd64/Release
- 3350994493994374d21810d2cf13802a837d969b48adb5283e9ee16a4629d9a5 3028 upstream/binary-amd64/Packages
- 9be19c967facb92a70d4006c804c4bfc4cae4f24016125609bc1b95bfee2cfde 1423 upstream/binary-amd64/Packages.gz
+ 449ec8293046b5394d56e0758c29e2801c79b142746e3a488d6e65ed1c32da80 2900 upstream/binary-amd64/Packages
+ 90d6a8c109da45038310ad1adfaee045d680a2846450fa8b8a962709008198a6 1372 upstream/binary-amd64/Packages.gz
  f016852c0ac69894b40f61102197886465f027e092d8bfad19cdb73040ffd9ef 172 upstream/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqLoDAACgkQI1G/gGq8
-IvizABAAwEW742DDLAwZE/9WTmULRGpNYzjHI00Jc9vukpGVSgIKvJIFTy9fGl8M
-TEmj6gr/0Pz8qevOJS2/FMslqrOVlKNrkAMPxg2r62e4Cs1z7+G4RtVqH2Hd1MIb
-zR+J82y6207LYEK5+iXB/YovhhbWjl3TabYFFaUu6O4YGXDMnLfCWFOJlllULay9
-pqFO6hhNw7atkoavTUyc3ZvEGXgKvZSKBUN4yE6LSRm6uqJmOrWNUs5DLl7Yh54d
-FMTGy8ZAp+iG8Str0kMUrrKbR7x9h9MWQ14Xde2Ko31gjSrAlMAzZfbLfSgzUnxD
-ge+YZu31TJiL7wlI9pyex/vXy2plzt4KDkBYFuIIKgvFIX0alpxltxkK3a9zBzyI
-DF1TCpXtph5+E41l/hEpc6NsB7tzfGo5uNFL0i+e4CpI8+Wz/bFjSjytcVDDkBu6
-nYHVfi/X8dxExdt0uzk20hS6ntbHcXcrB64FBxC7uCIcQEqoBG6BdAft25/TXp3w
-ZZsF6Hlu5g5Ta8fluBXvJxPf5T1CVTJpaw8GZGqobN+09ZgsJ3/LuWzRX4BuQtQK
-xKQTGB2//WwAl/mMgTSRxj5M9uO2n5VOjw0PyhbtyDHJ+yytXjrReeT18L0RMOC1
-ltjfuMb6Ni500QCeGYuS4oWM0E/xRLHtD94hfAJCdJVyUsLGmwQ=
-=n+uJ
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqMJqQACgkQI1G/gGq8
+IvgqwA/9EqCj7MnXMk0mElA4rtnI9EsqCLbHZ4aGP3vkWO//yKCJZvTWUAi4Yi6m
+lZO1OvWAGIhFvy+BGUbKtKhH58KORtRe/2857jjJKnrnkOFPcLl18wNmH50q2vMz
+I8dn8iQHObc9/zs2KK8ijnH9uNHlyPX60VEdwPrztJ572ay1zWCH3yeHWbmco3UB
+0qj6as0JvErW+DczNd/Y62wqEBq2XvEneuaeUiYv6OfRI11g5WheEJD1cHSNkiex
+4t6ZpU8vyIuHl4A3IP6vwFqQ0QNk8qGsp9+ofmtLe4RxCqjRcmHRfxW+Z1758nEW
+IKahAkjhkjD5I8o8tWquIdlwWkz53maYiakXnUEsHIhY1rPckEqyR7Y9c9qHQCUJ
+eHLEG1V0oQ9KLzCVdaiNJEzQp/9+1dJsLsltEnFgzN34xg1VHu2VnqpwzYnonFT/
+nmz5XX1yScm4RWBS2f/mpbZ5wM5q8msJwl/gD0rXHm8POG+ZP7utorZywIoa41gG
+rXm1IaBM1UJjwXT93YJSHTvCXaLbzEwWn9GOsY0tq96+4sO0hqlHzu3s76xTrpTQ
+X4oAfaA1X8CNkXosd3Ww+o+PbLZsimmlnK+A4Bp5OxwwZKyR81ey1mb2KdtpAgZm
+VFk2CZ5HgiTq5f15ZXUCq54A0zHg1gmQgLVvVMhUKaCEhkIUldw=
+=knJR
 -----END PGP SIGNATURE-----
