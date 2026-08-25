@@ -6,13 +6,13 @@ Label: Utile OS
 Suite: abstract
 Codename: abstract
 Version: 26
-Date: Mon, 24 Aug 2026 11:51:05 UTC
+Date: Tue, 25 Aug 2026 23:03:54 UTC
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
 MD5Sum:
- 1dd2d7e32dd7c3d4f594645e76a75720 4836 main/binary-amd64/Packages
- b2c69bab5ff035a1cc639011a0453d09 1850 main/binary-amd64/Packages.gz
+ 8da223f5e73930c82c61751452f73f24 4844 main/binary-amd64/Packages
+ 108b6d6896be66fb7e6ce5ee7f612821 1854 main/binary-amd64/Packages.gz
  8b32619ef7e42911f5d1f854fb69090f 168 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
@@ -21,8 +21,8 @@ MD5Sum:
  50e5b7f9e4df31256e9d960b40ad830b 1373 upstream/binary-amd64/Packages.gz
  d0b7de9518d1cc1a56bf21bfaf6acfbe 172 upstream/binary-amd64/Release
 SHA1:
- d3a9544748dab0baeac75c6bb4bfba10bbac5ce8 4836 main/binary-amd64/Packages
- 398e12742175495ad30a19188a51ab5504fdc1b4 1850 main/binary-amd64/Packages.gz
+ 57de8f7a432f1b2522a93829f5b8e48cb67a90fe 4844 main/binary-amd64/Packages
+ b116e67d61ca6455686db033cc71c353737fa5c5 1854 main/binary-amd64/Packages.gz
  0d5a103fd7ae46f401b87083eb7fe7b2aab8c41d 168 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
@@ -31,8 +31,8 @@ SHA1:
  3ea5878ba423308db4d69efe4c7e793996306d85 1373 upstream/binary-amd64/Packages.gz
  92930fa668919b5e243bfb3287d8beb9b461aac3 172 upstream/binary-amd64/Release
 SHA256:
- fa1050b5fa8b458a2ff422231fa60752fb1c1181ffc3dad98883d6aa1cd4671e 4836 main/binary-amd64/Packages
- 4407d7a40677abaca446a645eb57d90cd0e682785ef7e19d5a5c0ee1f9e018de 1850 main/binary-amd64/Packages.gz
+ 65cfc0c6149a4cecd8c9cf14a9ccc87f60ee7d0c7c7016139f708832d37ab6f7 4844 main/binary-amd64/Packages
+ ee4e4fd255958cb99bb233cf7f90ffa438c3a2bdb485a376554de37c119195ba 1854 main/binary-amd64/Packages.gz
  c6b88820ce3ba5193bb68ba5fcb6e9e3f54f084d8875dec6f2acd262f947f0de 168 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
@@ -42,17 +42,17 @@ SHA256:
  f016852c0ac69894b40f61102197886465f027e092d8bfad19cdb73040ffd9ef 172 upstream/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqMMCoACgkQI1G/gGq8
-Ivh4Xg/+IJ8dwMJL7FiPVgcb31BLShSL6eU7G3b4wixEOir3KRD18GWgeuvpGbmj
-hvMgE179zidN27QZ3hhWRZkL3Jus3A957wHSaBlidPlbKoqLW7dxt1LODvKLARRc
-nR9n8BHiHFAfbbLrWsdVDyI+bgcwJ42JbUnczoI5ouoRlsoWWEChBYXkcrB4ycg+
-137zTthDlTT8IZkg9txT2aKtAUAdTJnO1jCXsYpq5ZPSEuTXhb6kzwbOJpya0zlo
-DY+Eo9qDHQMGl6z0ZNAw1zbgvkHOyd1wgqfV+65DordlCyVqwROBAIXQt1u+8DtX
-WoPD9HpkSn23G2fwZ7LbXucZ/npUZ8+zdm4AgiIbVK8BlzqmcA4GK/OIGOOU2lVx
-flJI0cD1m8963eRGuxLlXMsbvPy49FAx9J3gYwVwdXfZ+/m5LHRTiJ6sKZPHFo7v
-qbt+RYITqKBwA/IbA2LU+kRPlVPWlqb0xm+KNMZHGfv3gmcO/yBkp328o+z749VD
-ht6TS903K+qVX+VD0aRoFSIBfKsCsxXUgIPuRfVfY+jHfFSwsdLaHmu5DNdVLI/u
-CQs359C9TuRUMgYx5QUi3jtbsGuvWM/HT5kJc8Zsb0MXpnNuWE2YWx3+qde4Mo4F
-kyxug6XySrgMYPFzMWQYHcsef4RXbE4qSDVPrqURKlsJi1VOCBc=
-=Gqdv
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqOH1oACgkQI1G/gGq8
+IviUpQ/9GRtaVixiW1MnEfynWdVsIBavNKY+0S8uQfByrJ81PPpjM0zsHTMb1e4W
+ee+zvEhXEQmcIshO1zAYt4ESWWKRVVR+VV43uzNfxOBhlX8nfcwtpDeOMCJ/FWc2
+xxkVOGAqiwIUYgdGfLrm1qhZ94Mgtz4y0CoQpNRXdzuBlx95EhKCbWesbnr6GsvK
+ag00W6bdxKzuXnJxFTeIJwdO5Gx+7o9nuy6OLgJEKmwBvUj+dgyGU1qRKkImgnDM
+J5kRi+kruHRerHsLnfTcNt+RWE1EF1Ud/IJbhnYyndqzFGeqYXV5LGUk4ZD9rZ7Y
+uD92ilL4yMm9xzL9Jsc8W3gwBdXAifwVOju94ywfFvOcfH9eFaZKpqamqCeMnOlJ
+g8YocpSe6/BtsL636qaf7VZWvw8WCQ3SLirESoLm+cE0LWGJfFEg63q+Rr11Y7o9
+oG9A2He8a4ZVEPmuVj8BeRsxryA+sV/7PEFsYOxIkUAz/tbopz8YFUtIwAUnG/To
+ObrqvlMtMzsdzjCya1pjeSD2dpoRnFEqqkebhiJTzNbwo0zfjFNNnXkkdit2dJKh
+3SsYW1jxUNu/YF3JywIjcrIrSAsGHhu3RzGG6jmurAd4urvA6xGhwC5dfOobAHVU
+5t3UJAaYG0c2LR9HVVvQO8nE4ulG9cCIBO6biEhk9ljTuqn+1Mw=
+=smnV
 -----END PGP SIGNATURE-----

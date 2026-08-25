@@ -51,48 +51,49 @@ MD5sum: 8ce94c43e6fd376b4b2527ccc2fcee84
 Description: Utile Desktop metapackage
 
 Package: utile-gnome-defaults
-Version: 26.0~beta12
+Version: 26.0
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 31
+Installed-Size: 32
 Depends: gnome-shell
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0~beta12_all.deb
-Size: 6524
-SHA256: 1e96bee18f3812a7dc23adc284cce7e89a23cc376b52e91a757de0ca51849114
-SHA1: 5512ecad34c958fef65cb2eede0649d55d72e539
-MD5sum: dbd1d6e587b2faf2d8a639381e107030
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0_all.deb
+Size: 6832
+SHA256: 0f00625e7cdb44071cac8b7a8a0a39506269741168288bf9e57422c5689ee6fd
+SHA1: 6e7f659a2082efbbdcb47541b9745cfc00c1d828
+MD5sum: b22809ddf7c096a303ceb3b64612cda2
 Description: Utile OS Default GNOME Configurations
 
 Package: utile-gnome-shell-extensions
-Version: 26.0~beta7
+Version: 26.0
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 8133
+Installed-Size: 8128
 Depends: gnome-shell, gnome-browser-connector, gnome-shell-extension-gsconnect, gnome-shell-extension-gsconnect-browsers
 Priority: optional
 Section: utils
-Filename: pool/main/u/utile-gnome-shell-extensions/utile-gnome-shell-extensions_26.0~beta7_all.deb
-Size: 2716266
-SHA256: 54389e996eb8da253759373aa3e9cd4e97099433ba4d3d8c99c2d36bcee0094a
-SHA1: 78f922c3785b7605ff31ccc6834ef0bf02ed0e89
-MD5sum: e25fbcdea700161b7465f3f487dd922f
+Filename: pool/main/u/utile-gnome-shell-extensions/utile-gnome-shell-extensions_26.0_all.deb
+Size: 2721822
+SHA256: a7499a51018cad364368b105cac1adc4aaf835866854f28308132cd3625fdacf
+SHA1: 3e310f281f2ff21d651d0f72aa4fb67f3db3c9a3
+MD5sum: 56dccbb0953fcb13198b84ae007d6779
 Description: Utile OS Default GNOME Shell Extensions
 
 Package: utile-grub-theme
-Version: 26.0~beta3
+Version: 26.0~beta4
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
+Installed-Size: 230
+Depends: grub-common, grub2-common
 Priority: optional
 Section: admin
-Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.0~beta3_all.deb
-Size: 87550
-SHA256: 400f83a75cf3976a857145cad074dc4148371663e1fe7909dc87047f414c7fc7
-SHA1: c1421b29dc6baf301533b4a6319ececb9c696d01
-MD5sum: d27b76eb1b1bbbae548fe8875a9c9dcd
-Description: Utile OS Grub Theme and Fonts
-Depends: grub-common
+Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.0~beta4_all.deb
+Size: 88538
+SHA256: cd33096c364e6b48dcf5d0c300518581142152f6c09dd83ceb6be473a3586a2b
+SHA1: 550195a51bb2491cb841620bfbbd7943e484d7a4
+MD5sum: 2b3caa1783cd7331f0ebe34e772221b2
+Description: Utile OS GRUB theme and fonts
 
 Package: utile-keyring
 Version: 2026.08.06.1
