@@ -3,7 +3,7 @@ Label: Utile OS
 Suite: abstract
 Codename: abstract
 Version: 26
-Date: Wed, 26 Aug 2026 02:27:03 UTC
+Date: Wed, 26 Aug 2026 09:38:18 UTC
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
@@ -14,8 +14,8 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
  315a449d632d8bd7031e85b264dd52ed 172 universe/binary-amd64/Release
- fd0afd6dc898d67730bdf57805d4656d 2895 upstream/binary-amd64/Packages
- 50e5b7f9e4df31256e9d960b40ad830b 1373 upstream/binary-amd64/Packages.gz
+ 8f16d59fac6c9bad439dc5b06dc08d7e 2919 upstream/binary-amd64/Packages
+ d9a10349fa3086ed4bd7ef2c9b27853a 1373 upstream/binary-amd64/Packages.gz
  d0b7de9518d1cc1a56bf21bfaf6acfbe 172 upstream/binary-amd64/Release
 SHA1:
  f54d7cc89f97d2d273e1025897cc24b9f79620b6 4861 main/binary-amd64/Packages
@@ -24,8 +24,8 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
  962e36a5d768242f5326f22e5d160b983a60394e 172 universe/binary-amd64/Release
- 1277aa123184d1047a84f128e6cfd48bdeba8ccc 2895 upstream/binary-amd64/Packages
- 3ea5878ba423308db4d69efe4c7e793996306d85 1373 upstream/binary-amd64/Packages.gz
+ 5a83da788021306a0f1fa9f36c45092890173a96 2919 upstream/binary-amd64/Packages
+ 715b1ad4654fbbd00204b8233687f3c768c81a0a 1373 upstream/binary-amd64/Packages.gz
  92930fa668919b5e243bfb3287d8beb9b461aac3 172 upstream/binary-amd64/Release
 SHA256:
  c626f3f9620376f18e23bc76fb29f2d0e27eac9c5c65a228771846574d2c03c8 4861 main/binary-amd64/Packages
@@ -34,6 +34,6 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
  920967e5fc8218c7fe7c0ac728f1f286867f1fee27d36234e2441feee0befa56 172 universe/binary-amd64/Release
- 64715239a7fd54f7917a94ece25a342351d2fd1bd4a43f08292fe7afaa0725d8 2895 upstream/binary-amd64/Packages
- df16f01fa7572bb0ad475d8636eed30e6b43824971680ff63788cd44bd6e467d 1373 upstream/binary-amd64/Packages.gz
+ 37aff1fa2f36ba3fa3c212c1b358c7645ed8992ded87deb078c687217a92a19c 2919 upstream/binary-amd64/Packages
+ 8fda542153af562ffc787a64b589853db00e6c03dc5e5c1d81329e2ab84ccfc9 1373 upstream/binary-amd64/Packages.gz
  f016852c0ac69894b40f61102197886465f027e092d8bfad19cdb73040ffd9ef 172 upstream/binary-amd64/Release

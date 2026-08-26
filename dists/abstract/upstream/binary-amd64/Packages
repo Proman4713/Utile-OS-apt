@@ -1,5 +1,5 @@
 Package: base-files
-Version: 1:14utile7.3
+Version: 14ubuntu6utile7.4
 Architecture: amd64
 Essential: yes
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -12,11 +12,11 @@ Provides: base, usr-is-merged
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Filename: pool/upstream/b/base-files/base-files_14utile7.3_amd64.deb
-Size: 108416
-SHA256: 9cc27ab84471d7712c4d3a70018cb19659d25f04bed835e4d23d5e536b998af7
-SHA1: f4255d5c34f12165715bc674c560cd8460073838
-MD5sum: 0c4bf228dcf27439d0b38c245e29caac
+Filename: pool/upstream/b/base-files/base-files_14ubuntu6utile7.4_amd64.deb
+Size: 108518
+SHA256: 2bffdc06e25641e643927a323e57e3f43968cdc4cd5ee1b6a4d5b566ee458951
+SHA1: da7755ab6cfcd5623c9787e1402ce3cd6b5b3e31
+MD5sum: 5ccf5b74438b2032f38162b7f0199c31
 Description: Debian base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
  several important miscellaneous files, such as /etc/debian_version,
@@ -46,7 +46,7 @@ Description: Common Calamares Settings
 
 Package: motd-news-config
 Source: base-files
-Version: 1:14utile7.3
+Version: 14ubuntu6utile7.4
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 52
@@ -54,11 +54,11 @@ Breaks: base-files (<< 11ubuntu11)
 Replaces: base-files (<< 11ubuntu11)
 Priority: optional
 Section: admin
-Filename: pool/upstream/b/base-files/motd-news-config_14utile7.3_all.deb
-Size: 38334
-SHA256: 020902b7c2dc7a5524051777dadca02576e91f098c78adbe63f4806b5639a451
-SHA1: d3540bf42f96b5dc9aeffc1f9c6f0c4287245a3f
-MD5sum: 908f35be52944673422dff22af1c031b
+Filename: pool/upstream/b/base-files/motd-news-config_14ubuntu6utile7.4_all.deb
+Size: 38376
+SHA256: 853d920f2911f741cc94d39decd560d6b6e638464c4c2330cfe40786a8e15d9b
+SHA1: 449d226903a2a4416deff5dade67cd815bf34534
+MD5sum: c65fbbd45ae7b9932d08dd57357af515
 Description: Configuration for motd-news shipped in base-files
  This package contains the configuration read by the motd-news script
  shipped in the base-files package.
