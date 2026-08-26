@@ -1,5 +1,5 @@
 Package: base-files
-Version: 14ubuntu6utile7.4
+Version: 14ubuntu6utile7.5
 Architecture: amd64
 Essential: yes
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -12,11 +12,11 @@ Provides: base, usr-is-merged
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Filename: pool/upstream/b/base-files/base-files_14ubuntu6utile7.4_amd64.deb
-Size: 108518
-SHA256: 2bffdc06e25641e643927a323e57e3f43968cdc4cd5ee1b6a4d5b566ee458951
-SHA1: da7755ab6cfcd5623c9787e1402ce3cd6b5b3e31
-MD5sum: 5ccf5b74438b2032f38162b7f0199c31
+Filename: pool/upstream/b/base-files/base-files_14ubuntu6utile7.5_amd64.deb
+Size: 108510
+SHA256: 56574e6d6042c4f1a4ecb72cf174f1b973d2561dc1fb2975a9aed591526841db
+SHA1: 43d116f0cdeb89fc8f3c2b3d25c7a65d8b2de368
+MD5sum: 380872f4a9b0f090cca2f945d74d5724
 Description: Debian base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
  several important miscellaneous files, such as /etc/debian_version,
@@ -46,7 +46,7 @@ Description: Common Calamares Settings
 
 Package: motd-news-config
 Source: base-files
-Version: 14ubuntu6utile7.4
+Version: 14ubuntu6utile7.5
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 52
@@ -54,11 +54,11 @@ Breaks: base-files (<< 11ubuntu11)
 Replaces: base-files (<< 11ubuntu11)
 Priority: optional
 Section: admin
-Filename: pool/upstream/b/base-files/motd-news-config_14ubuntu6utile7.4_all.deb
-Size: 38376
-SHA256: 853d920f2911f741cc94d39decd560d6b6e638464c4c2330cfe40786a8e15d9b
-SHA1: 449d226903a2a4416deff5dade67cd815bf34534
-MD5sum: c65fbbd45ae7b9932d08dd57357af515
+Filename: pool/upstream/b/base-files/motd-news-config_14ubuntu6utile7.5_all.deb
+Size: 38412
+SHA256: 85ba91bdd014b267a4b2491d4c5745591d0a83e55f5cbb511288a96d79ad93d8
+SHA1: 9feccb681390735d083e2857b72d37d5ce5e7590
+MD5sum: 3195739de0977dd8faebeebc079dec67
 Description: Configuration for motd-news shipped in base-files
  This package contains the configuration read by the motd-news script
  shipped in the base-files package.
