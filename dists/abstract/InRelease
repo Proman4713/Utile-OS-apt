@@ -6,13 +6,13 @@ Label: Utile OS
 Suite: abstract
 Codename: abstract
 Version: 26
-Date: Wed, 26 Aug 2026 02:08:11 UTC
+Date: Wed, 26 Aug 2026 02:15:59 UTC
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
 MD5Sum:
- be7701d09891562e34f8116e4f4c1019 4857 main/binary-amd64/Packages
- 1a85b9b53774222036807188c9236e3a 1857 main/binary-amd64/Packages.gz
+ 08822f5fd6ffacd7ea6e02bd6610e785 4861 main/binary-amd64/Packages
+ 82d445fc2c95ee46e47656646a824928 1857 main/binary-amd64/Packages.gz
  8b32619ef7e42911f5d1f854fb69090f 168 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
@@ -21,8 +21,8 @@ MD5Sum:
  50e5b7f9e4df31256e9d960b40ad830b 1373 upstream/binary-amd64/Packages.gz
  d0b7de9518d1cc1a56bf21bfaf6acfbe 172 upstream/binary-amd64/Release
 SHA1:
- b2af9a2d320685fbe0702897ae35da723511e17f 4857 main/binary-amd64/Packages
- 5eb253ab8a3a271412199ce4fd287f4de01b41f0 1857 main/binary-amd64/Packages.gz
+ 77b798ad55efb8d09e8caa6ac3def527c352ede1 4861 main/binary-amd64/Packages
+ 430b7fc6f344f4aa8ec106385244cc7ccf8b90b1 1857 main/binary-amd64/Packages.gz
  0d5a103fd7ae46f401b87083eb7fe7b2aab8c41d 168 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
@@ -31,8 +31,8 @@ SHA1:
  3ea5878ba423308db4d69efe4c7e793996306d85 1373 upstream/binary-amd64/Packages.gz
  92930fa668919b5e243bfb3287d8beb9b461aac3 172 upstream/binary-amd64/Release
 SHA256:
- 742847463c7313e95a33cb5e07d976a54acea70c400ea7831b51c998e9a48982 4857 main/binary-amd64/Packages
- d57cc957be57bce2708e975fed51d0261489fa7ae39537085eb10c5aed2656bf 1857 main/binary-amd64/Packages.gz
+ 6b99feec13b515f98f00e3d2240784f8cccb8823e2953292f9537be6fed3e536 4861 main/binary-amd64/Packages
+ fb453cbd9075092b295cda68ca8e672c165fd708094abbf7270648f969e5de42 1857 main/binary-amd64/Packages.gz
  c6b88820ce3ba5193bb68ba5fcb6e9e3f54f084d8875dec6f2acd262f947f0de 168 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
@@ -42,17 +42,17 @@ SHA256:
  f016852c0ac69894b40f61102197886465f027e092d8bfad19cdb73040ffd9ef 172 upstream/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqOSpYACgkQI1G/gGq8
-Ivh4Jw/+J1rAa/ZhmL7TU3goxnDI/yb3ZexBBwAhXKcgL965I+9r7p60LjxC99Fz
-sgAbpQuJ/YQb0EUsztJnrrKL/YLahqtQWQ0uy3crjKqo7zoDFxxHCns5hq+PF/bC
-CFhgE1Y9KVqyTxXXQvBte+Mzw/Pi6MJQcJhiMMgrhjKpFfoN5hWI2Ey3sGaj68q9
-/Z3p2WdgCI9MW0HYUtgOeiv1uD/5b8cIGeqhVJZUEiC58F/mtyLCeGuW+uqdV4pv
-Ru+x2o2dJhhxtOIyXFAHYVd2BBP/+XP3iQwycoLvAVRZ7J0FNyys1luGc15gY1B3
-ZxtWEIrjw9hF8Nfys0PbMyMIstivBkXDa5Z/y5SAn5nUR1ttR7sM2I0aEt4tFFPM
-v/Bvsj3O3fms4ApiVl5OzjXOS6CR/0y9FBId3alR/SUlT4ctErIqe+9IItDDtJMo
-K+7djYLG1s4SQx4/CSC+MmAlxjjwm/Rf9ZO7dWT+sLvwhUwtSTyXpmG5r3AfE9oX
-IE06cFklmp4zRB9E274cun/t5xG0j4N6/TKjk3cTdYyQ1OCC0HZkJZk7XcgRoAmI
-o/um242Aib2iycDzXX1sdf9rIrwP49AWt1RStdbZ0lej25eJmsUAVrUyBUnMCOMn
-V96CP+V8p834hcASBaa9n/UPRrl0xZsIzYwdN1PFgPPHCPu1Drk=
-=haoT
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqOTHoACgkQI1G/gGq8
+IviBJQ//fVnvqfXCLWMx0nouGz73Ote24tEezpofZbnWFU37b/AtSMpS3XQCSH9k
+UQeGuntl5192T4DGdIwPL2eH17NU0nZ8xtVRya/V3TTd+KiHJKY05+/N5913TAOC
+ypqDbzg8QBAVwXkoJPBwO1Oatioy0x+wVPuop9VLbPnLPHmE276EWhCgv+rJsSJV
+v7jbIyQNbmCy5emIconW63TGX2djp9MS5ny1heo4YvCVbnk96TQrUVVpqZoqBJKD
+3E9qSR5OPbhUZCNfQ3HawHjWXMQo95gnjrT/dVjWsC3WYsU1mDRMczSJOhyvH57n
+Q0odbnBD8ZR1JcIy5i45A+1VH+PLO7QLQ+rCTqaKqqFrqNLH17NiJHUF2M8olvDK
+o0/kGsI/VXXMj4DiVfpKupbwGU+PmrO/wfbRMTxjaCsqwHiy9zpKi+VX+kdY/Sk5
+x6MFig25mm+r+ptdQsLtQbpQAA2JTMKdpFfkrD3UuEDqvKBfoOmTz/PlQISX8Jac
+07tqe7g6zMZ4SqId1KRMcXFvpc0XP/aTJZOMYKLcgpIsq1HQpplZY2iYDUm1r9r/
+0u5/0FXQ4NRbIezlIb+Z0mj5WDfSYn9sdq3mlrFejafan183Pw+GAbOYRPIZVZos
+aCveTpviPE0+sMHsH5GBcWf1p+qOfHWEK2nCRUg9z5bU6voeKmA=
+=JI4o
 -----END PGP SIGNATURE-----
