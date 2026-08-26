@@ -6,13 +6,13 @@ Label: Utile OS
 Suite: abstract
 Codename: abstract
 Version: 26
-Date: Wed, 26 Aug 2026 02:15:59 UTC
+Date: Wed, 26 Aug 2026 02:27:03 UTC
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
 MD5Sum:
- 08822f5fd6ffacd7ea6e02bd6610e785 4861 main/binary-amd64/Packages
- 82d445fc2c95ee46e47656646a824928 1857 main/binary-amd64/Packages.gz
+ c1e8a580807c019bb1d112b510122738 4861 main/binary-amd64/Packages
+ c79e05c2456ffee012a0cd25bcc5873b 1860 main/binary-amd64/Packages.gz
  8b32619ef7e42911f5d1f854fb69090f 168 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
@@ -21,8 +21,8 @@ MD5Sum:
  50e5b7f9e4df31256e9d960b40ad830b 1373 upstream/binary-amd64/Packages.gz
  d0b7de9518d1cc1a56bf21bfaf6acfbe 172 upstream/binary-amd64/Release
 SHA1:
- 77b798ad55efb8d09e8caa6ac3def527c352ede1 4861 main/binary-amd64/Packages
- 430b7fc6f344f4aa8ec106385244cc7ccf8b90b1 1857 main/binary-amd64/Packages.gz
+ f54d7cc89f97d2d273e1025897cc24b9f79620b6 4861 main/binary-amd64/Packages
+ 10d4b1c65162f34729a7cc5b99a2818db178d3a8 1860 main/binary-amd64/Packages.gz
  0d5a103fd7ae46f401b87083eb7fe7b2aab8c41d 168 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
@@ -31,8 +31,8 @@ SHA1:
  3ea5878ba423308db4d69efe4c7e793996306d85 1373 upstream/binary-amd64/Packages.gz
  92930fa668919b5e243bfb3287d8beb9b461aac3 172 upstream/binary-amd64/Release
 SHA256:
- 6b99feec13b515f98f00e3d2240784f8cccb8823e2953292f9537be6fed3e536 4861 main/binary-amd64/Packages
- fb453cbd9075092b295cda68ca8e672c165fd708094abbf7270648f969e5de42 1857 main/binary-amd64/Packages.gz
+ c626f3f9620376f18e23bc76fb29f2d0e27eac9c5c65a228771846574d2c03c8 4861 main/binary-amd64/Packages
+ 10df823cbd07f5a1b8ab29850010b842127c38fb44b5061ad96e57884fb4c610 1860 main/binary-amd64/Packages.gz
  c6b88820ce3ba5193bb68ba5fcb6e9e3f54f084d8875dec6f2acd262f947f0de 168 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
@@ -42,17 +42,17 @@ SHA256:
  f016852c0ac69894b40f61102197886465f027e092d8bfad19cdb73040ffd9ef 172 upstream/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqOTHoACgkQI1G/gGq8
-IviBJQ//fVnvqfXCLWMx0nouGz73Ote24tEezpofZbnWFU37b/AtSMpS3XQCSH9k
-UQeGuntl5192T4DGdIwPL2eH17NU0nZ8xtVRya/V3TTd+KiHJKY05+/N5913TAOC
-ypqDbzg8QBAVwXkoJPBwO1Oatioy0x+wVPuop9VLbPnLPHmE276EWhCgv+rJsSJV
-v7jbIyQNbmCy5emIconW63TGX2djp9MS5ny1heo4YvCVbnk96TQrUVVpqZoqBJKD
-3E9qSR5OPbhUZCNfQ3HawHjWXMQo95gnjrT/dVjWsC3WYsU1mDRMczSJOhyvH57n
-Q0odbnBD8ZR1JcIy5i45A+1VH+PLO7QLQ+rCTqaKqqFrqNLH17NiJHUF2M8olvDK
-o0/kGsI/VXXMj4DiVfpKupbwGU+PmrO/wfbRMTxjaCsqwHiy9zpKi+VX+kdY/Sk5
-x6MFig25mm+r+ptdQsLtQbpQAA2JTMKdpFfkrD3UuEDqvKBfoOmTz/PlQISX8Jac
-07tqe7g6zMZ4SqId1KRMcXFvpc0XP/aTJZOMYKLcgpIsq1HQpplZY2iYDUm1r9r/
-0u5/0FXQ4NRbIezlIb+Z0mj5WDfSYn9sdq3mlrFejafan183Pw+GAbOYRPIZVZos
-aCveTpviPE0+sMHsH5GBcWf1p+qOfHWEK2nCRUg9z5bU6voeKmA=
-=JI4o
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqOTw8ACgkQI1G/gGq8
+IvgSRw/+J1uGS1pFCRvpUX7eFcSjNPiAmdTUrVZ/nsZjd6eVL44tLgksZwg6Bb0U
+6OBwIUP/VEqKBEFzwX/7LZZu17UjVaGzRrOHMSAGOcV+RKfm8gmHHGytXPlwHiR1
+zvsBzNt+8HhunvAy2SOXwzwDZ1cgfgXSp32HyjI2Pnvvy3f1akOIH0RLNvVo6pUD
+AQ/97AuindrLXeVHg0uu62H7pmH/wMrcJStLIl64Stccr8uJRwg1V36pLOq7c2h8
+UxlUv4ac19R5dG/OaVRQBVNL4LCaoJZkDAbKraMFStVThHitqGPUIahV/8MYXKit
+1ybbRPe59e7OEpQiuGXpv5exHWaHN3ZAaPNBuncha6HSWZVuTL/pza1MTic9R7Oh
+4jsCQth2hWLXxmbPXtsmZ7VX2+MCvJP/Gy5+jrcofhA9ivIUjLWWHDeBxRCk3ibT
+jcM/2s8w6MhHfOA2SycAVsTC8QEfmgLKobpQa0bFmLQvIeKNqL4uU0sw4JzFjzcc
+xMYwK8jR6OU7bBmTx49PqHWeZRYkot8arm5lfKdPc8OYrxSwyZtuWBke7vrVmhHA
+FSbgB472VDHpvAg/uY2VA1W3z7hZxxdImcq7kofwAQ5xf5ayNWmlvXqDUAU2kbwN
+pSWEcUDyIBwSkPMirrBXgUZ1nu0jr1qOayKgWWHdY52RSZ2J7Sk=
+=anfj
 -----END PGP SIGNATURE-----
