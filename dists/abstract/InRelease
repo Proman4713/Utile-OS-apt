@@ -6,7 +6,7 @@ Label: Utile OS
 Suite: abstract
 Codename: abstract
 Version: 26
-Date: Wed, 26 Aug 2026 09:38:18 UTC
+Date: Wed, 26 Aug 2026 20:40:23 UTC
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
@@ -17,8 +17,8 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
  315a449d632d8bd7031e85b264dd52ed 172 universe/binary-amd64/Release
- 8f16d59fac6c9bad439dc5b06dc08d7e 2919 upstream/binary-amd64/Packages
- d9a10349fa3086ed4bd7ef2c9b27853a 1373 upstream/binary-amd64/Packages.gz
+ 46ca8e12fde78c1348643af63aa75e29 7243 upstream/binary-amd64/Packages
+ 14cc274b4bccaa2f6aacae93122111ed 2511 upstream/binary-amd64/Packages.gz
  d0b7de9518d1cc1a56bf21bfaf6acfbe 172 upstream/binary-amd64/Release
 SHA1:
  f54d7cc89f97d2d273e1025897cc24b9f79620b6 4861 main/binary-amd64/Packages
@@ -27,8 +27,8 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
  962e36a5d768242f5326f22e5d160b983a60394e 172 universe/binary-amd64/Release
- 5a83da788021306a0f1fa9f36c45092890173a96 2919 upstream/binary-amd64/Packages
- 715b1ad4654fbbd00204b8233687f3c768c81a0a 1373 upstream/binary-amd64/Packages.gz
+ dc2c56378b4e7089e01731d524b5f49b872d821d 7243 upstream/binary-amd64/Packages
+ 1075f521cbfcd291e7f1331245ebdebe6b77d8e5 2511 upstream/binary-amd64/Packages.gz
  92930fa668919b5e243bfb3287d8beb9b461aac3 172 upstream/binary-amd64/Release
 SHA256:
  c626f3f9620376f18e23bc76fb29f2d0e27eac9c5c65a228771846574d2c03c8 4861 main/binary-amd64/Packages
@@ -37,22 +37,22 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
  920967e5fc8218c7fe7c0ac728f1f286867f1fee27d36234e2441feee0befa56 172 universe/binary-amd64/Release
- 37aff1fa2f36ba3fa3c212c1b358c7645ed8992ded87deb078c687217a92a19c 2919 upstream/binary-amd64/Packages
- 8fda542153af562ffc787a64b589853db00e6c03dc5e5c1d81329e2ab84ccfc9 1373 upstream/binary-amd64/Packages.gz
+ 956d3c67d0c91206654cb34d3995a2dd5f05fa2d96fc05e2d48f5a11889790cc 7243 upstream/binary-amd64/Packages
+ 7d3d8f01477141dd00c58b2e1f94db8ebbf2ff5a8f88a8f4d7e09073638c4ba0 2511 upstream/binary-amd64/Packages.gz
  f016852c0ac69894b40f61102197886465f027e092d8bfad19cdb73040ffd9ef 172 upstream/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqOtAoACgkQI1G/gGq8
-IviC/g//TQwyhFyjs/8amtMhI9K2FPxxMpIja1irPTRK7XCMp/G1gchK6UHAzPfd
-YlKV8d7RNH7FirtvSgxBYCrYbAM374mERrbzlXdxzz524dHPUYsjGHbHzfnFAZIp
-t2ETBrrCBT+9blSvApJwP7cEdyOPBGZFbUifW5s/dF4VvUsFCi5ZyvLoNf1kpN6g
-w0Ek/J9P612VPsA2S5H0TB5yfz0ablY8I2IQmXWWnNXAD53L2DIuvn2UojNnnkCE
-2q1gKqzUbDHFbcao6mMrqVmPS5NVIGFNH7ZFd0sYjuriBTSZHm6s6jkGQDtzdHi5
-kKwhnf6TbsZB+bEEZald5cJ1BfC8M0AJyOHCex/kqqAijWk3Yx4LEGiOFv0ahV1/
-cQrlE2x2cxoL/u0w58XJYShAjhij/rHQ+zUtuKqP3fV8jlflEva7Ta1Im7GBNsga
-K6io6AJZZTbxiR0KskyLTXsLfu+jpw5JlBUVa+lCVvE+Wlpg9ApQo2LBHvyki5gl
-8DZP5Xh0EQBnrUCKmuHX/V8KLXQl6J0nFAdpO3gsTT67SZbyeP/ENp+QxH6seD75
-oIkdfezDJyb13NveHpGF4nj9w7CBzyPxZGY8Y6ffjY7glT+3HWcc5rESxBkc3Z7m
-E3FXMYOvPr5cJEaHFKNT0HcsPA3u1l+XxS41ZaiEPFeKQSUaW7A=
-=3hJC
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqPTzgACgkQI1G/gGq8
+IvhMrxAAsCSKDiuW72Fr1jwG9UU1HR1FftxDJWbVsWamlHEpWPOOncaG4reJFYHq
+Grjam/gpVl6ZGJmILe/9hded5S7SX0KpGwQmWMcVVK1KOkJt+fixN7ynxY2bpNO0
++R5OXQJjA27c7FaQuhSmNLW2ZDKXGTMG1aOuIX0c0WisS5PMnkJ3NLbhjFq0w+Cr
+lFmGx9/gE+132GKrxME/p9j+aoi7YCbGKM3Kit6GI3MuyytxBxnzc5r6ZIdmGjUG
+7MgpuF0+CphcN5kVhb4AbRc8GAvxlsuF4hx3S5InIv7cpwGejl4g7oPH0HIEYrSc
+zsLA8Xra6+hJkg8eY2TUTJYimk29iIRBfXH6V26UIZyZ5wDw8Ig0IgdDcE152uNx
+IdFNAc1Q5Ad2anm4iIsoxJGp5Z66H9nYINAJcGlxHxQCZrF4ViGLBLHVPzjMFA29
+JG0t0Irti5d2pBMExmri+sJ6pUv0+MNvx/FW6KfVMvQJnQFzil8/ZkuGAeYc3D0N
+P8KtYI7pH0/geEY83kw6Dam5yFTJgPPOf6HXAZt67rve74FwsvWG8DkbXUdpezvr
+fNZ7z2SSf1FEHGaVf7FnqL/vNp2UGjN5mdA1+D92TaxFOjfvK2eD5QGTzG/1HgMh
+KpNj2a8qbCr8fn+pawO9vbaAxOz2l7y6cMvOSAhgyalA3tO8bAQ=
+=SFEd
 -----END PGP SIGNATURE-----
