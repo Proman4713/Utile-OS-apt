@@ -6,13 +6,13 @@ Label: Utile OS
 Suite: abstract
 Codename: abstract
 Version: 26
-Date: Tue, 25 Aug 2026 23:03:54 UTC
+Date: Wed, 26 Aug 2026 01:58:15 UTC
 Architectures: amd64
 Components: main universe upstream
 Description: Official Repository for Utile 26.04 (Abstract Assembly)
 MD5Sum:
- 8da223f5e73930c82c61751452f73f24 4844 main/binary-amd64/Packages
- 108b6d6896be66fb7e6ce5ee7f612821 1854 main/binary-amd64/Packages.gz
+ e70938c25facabd27c91350728142ea6 4857 main/binary-amd64/Packages
+ b95e48ddd26708f89f364e3b648009b2 1858 main/binary-amd64/Packages.gz
  8b32619ef7e42911f5d1f854fb69090f 168 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 universe/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 universe/binary-amd64/Packages.gz
@@ -21,8 +21,8 @@ MD5Sum:
  50e5b7f9e4df31256e9d960b40ad830b 1373 upstream/binary-amd64/Packages.gz
  d0b7de9518d1cc1a56bf21bfaf6acfbe 172 upstream/binary-amd64/Release
 SHA1:
- 57de8f7a432f1b2522a93829f5b8e48cb67a90fe 4844 main/binary-amd64/Packages
- b116e67d61ca6455686db033cc71c353737fa5c5 1854 main/binary-amd64/Packages.gz
+ 1c6258dd73b863f2456fedcb3698f71a0ca050d2 4857 main/binary-amd64/Packages
+ f761ec7a1509ff3a15de516c6f42980eaead6c75 1858 main/binary-amd64/Packages.gz
  0d5a103fd7ae46f401b87083eb7fe7b2aab8c41d 168 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 universe/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 universe/binary-amd64/Packages.gz
@@ -31,8 +31,8 @@ SHA1:
  3ea5878ba423308db4d69efe4c7e793996306d85 1373 upstream/binary-amd64/Packages.gz
  92930fa668919b5e243bfb3287d8beb9b461aac3 172 upstream/binary-amd64/Release
 SHA256:
- 65cfc0c6149a4cecd8c9cf14a9ccc87f60ee7d0c7c7016139f708832d37ab6f7 4844 main/binary-amd64/Packages
- ee4e4fd255958cb99bb233cf7f90ffa438c3a2bdb485a376554de37c119195ba 1854 main/binary-amd64/Packages.gz
+ d48f1b7fd7a05d7c0f53e3d5fe60dfd80faa07cb8fedfb89eebc838f7a32bcab 4857 main/binary-amd64/Packages
+ 694ce97e0cd9be0faf020584f4ba9ae2adf5e943e86704b5d068e622dc6eaf73 1858 main/binary-amd64/Packages.gz
  c6b88820ce3ba5193bb68ba5fcb6e9e3f54f084d8875dec6f2acd262f947f0de 168 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 universe/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 universe/binary-amd64/Packages.gz
@@ -42,17 +42,17 @@ SHA256:
  f016852c0ac69894b40f61102197886465f027e092d8bfad19cdb73040ffd9ef 172 upstream/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqOH1oACgkQI1G/gGq8
-IviUpQ/9GRtaVixiW1MnEfynWdVsIBavNKY+0S8uQfByrJ81PPpjM0zsHTMb1e4W
-ee+zvEhXEQmcIshO1zAYt4ESWWKRVVR+VV43uzNfxOBhlX8nfcwtpDeOMCJ/FWc2
-xxkVOGAqiwIUYgdGfLrm1qhZ94Mgtz4y0CoQpNRXdzuBlx95EhKCbWesbnr6GsvK
-ag00W6bdxKzuXnJxFTeIJwdO5Gx+7o9nuy6OLgJEKmwBvUj+dgyGU1qRKkImgnDM
-J5kRi+kruHRerHsLnfTcNt+RWE1EF1Ud/IJbhnYyndqzFGeqYXV5LGUk4ZD9rZ7Y
-uD92ilL4yMm9xzL9Jsc8W3gwBdXAifwVOju94ywfFvOcfH9eFaZKpqamqCeMnOlJ
-g8YocpSe6/BtsL636qaf7VZWvw8WCQ3SLirESoLm+cE0LWGJfFEg63q+Rr11Y7o9
-oG9A2He8a4ZVEPmuVj8BeRsxryA+sV/7PEFsYOxIkUAz/tbopz8YFUtIwAUnG/To
-ObrqvlMtMzsdzjCya1pjeSD2dpoRnFEqqkebhiJTzNbwo0zfjFNNnXkkdit2dJKh
-3SsYW1jxUNu/YF3JywIjcrIrSAsGHhu3RzGG6jmurAd4urvA6xGhwC5dfOobAHVU
-5t3UJAaYG0c2LR9HVVvQO8nE4ulG9cCIBO6biEhk9ljTuqn+1Mw=
-=smnV
+iQIzBAEBCgAdFiEE1k4yQ4XZjawj6GmmI1G/gGq8IvgFAmqOSDgACgkQI1G/gGq8
+IvhOzw//WiPivnv96cSeOVrJT55pMeuvAZpOcHjlpS99t0wubiRwkKziZC1ZGesT
+98Ftt9zpcBkxV9ww3dPdbiyJSvnipvTCnLSd1I7HVrQp4lNQBqZiqPr0nC6CI37U
+VmGwgXWQSMPrgsKX9v8cc88U9YP99uIfLtrtkW8et1C1TK8/bZy2ZcnfBHN4RQN1
+0sQ+GQ2QHwvItDfx6vjTMObdE4d0FSghn/Y2nWyyZzkAWdf34OBMYfoOb+B64la1
+RfGMUJTyXu4W9Reln32IGgJxnDoKbVy9AmL1qrAQLcoFVKhwwOYsO5QhQjCUTaHT
+ETY7DjtzFbvfrgaVs6BBC7dkhFc5FRKS1fXxmJ+hpgvaTIh9mz3r9dQMrt73KTTj
+y0e8dNlvqbcDD2wPkV14Z+x4sUFxVHntPOSIIhhV+1PLpYD+LEh59LKBkDpqNyzm
+socPs7XzRrUyyanC95pIAEG2aIhbMO9Kb+9G5R0ufedh6FQkaBHjsdt51mor+9k9
+8ST+9StQOt9ZM+s2BKS4/T+BcW2/AHXf+vhenx6BTh9WrDhNDFSvit3m+tXKctE8
+tfudqkjjnAh68LS+8qF8lz760xfLmQ+m0axyJU1GWHJTC7kqwtUuWaPKXUv4lesV
+ZWIBLheQTMB+Zs3SiVut6hJzOjnui+SY2lBRkoBrBWnKQ3/G1iE=
+=Rokm
 -----END PGP SIGNATURE-----

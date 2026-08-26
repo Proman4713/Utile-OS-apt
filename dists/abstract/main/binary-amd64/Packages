@@ -36,33 +36,33 @@ Description: Utile OS Calamares Settings and Branding
  GNOME desktop environment.
 
 Package: utile-desktop
-Version: 26.0~beta11
+Version: 26.0~beta12
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Installed-Size: 12
 Depends: utile-keyring, utile-gnome-shell-extensions, utile-gnome-defaults, utile-wallpapers, base-files, utile-grub-theme, nala, fastfetch
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta11_all.deb
-Size: 2364
-SHA256: 53da5c4cf1b422608d7d668a322f33b3239d95ebdae1dc09671416f34f7081c6
-SHA1: 3835f9934043d04bb6c7a319e15985ff63c948e5
-MD5sum: 8ce94c43e6fd376b4b2527ccc2fcee84
+Filename: pool/main/u/utile-desktop/utile-desktop_26.0~beta12_all.deb
+Size: 2406
+SHA256: 99d2d3292e39f168c71b8a8aa72cf87b92475ec1e6ba61656b3eea8ad5f364d5
+SHA1: 9a6cd6cb91fdcc0134760c88f6c44238e16b8496
+MD5sum: 832ace1b1b00e69393737292c5a7ca90
 Description: Utile Desktop metapackage
 
 Package: utile-gnome-defaults
-Version: 26.0
+Version: 26.0-1
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Installed-Size: 32
 Depends: gnome-shell
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0_all.deb
-Size: 6832
-SHA256: 0f00625e7cdb44071cac8b7a8a0a39506269741168288bf9e57422c5689ee6fd
-SHA1: 6e7f659a2082efbbdcb47541b9745cfc00c1d828
-MD5sum: b22809ddf7c096a303ceb3b64612cda2
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0-1_all.deb
+Size: 6894
+SHA256: 8a2de76b33edeaa982a5ea8cc11c991f9681a16b6207a55dee9a59e36180e284
+SHA1: e16cd03a83cf386637e629e915dca6981befeaf3
+MD5sum: 1385f235b2ca60baeac2fc84ac37a292
 Description: Utile OS Default GNOME Configurations
 
 Package: utile-gnome-shell-extensions
@@ -81,18 +81,18 @@ MD5sum: 56dccbb0953fcb13198b84ae007d6779
 Description: Utile OS Default GNOME Shell Extensions
 
 Package: utile-grub-theme
-Version: 26.0~beta4
+Version: 26.0~beta5
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 230
-Depends: grub-common, grub2-common
+Installed-Size: 243
+Depends: grub-common, grub2-common, python3
 Priority: optional
 Section: admin
-Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.0~beta4_all.deb
-Size: 88538
-SHA256: cd33096c364e6b48dcf5d0c300518581142152f6c09dd83ceb6be473a3586a2b
-SHA1: 550195a51bb2491cb841620bfbbd7943e484d7a4
-MD5sum: 2b3caa1783cd7331f0ebe34e772221b2
+Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.0~beta5_all.deb
+Size: 90904
+SHA256: cdcbad281fc19550b40b3d03c6f8d0d986c2477fbb8994463dddc28db71b7b65
+SHA1: 14807f25e512df52119ca986b09b2e9ef99e4de3
+MD5sum: c5cb235f26c355900c29ad16091d744b
 Description: Utile OS GRUB theme and fonts
 
 Package: utile-keyring
