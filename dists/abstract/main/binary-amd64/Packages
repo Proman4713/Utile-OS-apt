@@ -81,18 +81,18 @@ MD5sum: 56dccbb0953fcb13198b84ae007d6779
 Description: Utile OS Default GNOME Shell Extensions
 
 Package: utile-grub-theme
-Version: 26.0~beta5
+Version: 26.0~beta6
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 243
+Installed-Size: 244
 Depends: grub-common, grub2-common, python3
 Priority: optional
 Section: admin
-Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.0~beta5_all.deb
-Size: 90904
-SHA256: cdcbad281fc19550b40b3d03c6f8d0d986c2477fbb8994463dddc28db71b7b65
-SHA1: 14807f25e512df52119ca986b09b2e9ef99e4de3
-MD5sum: c5cb235f26c355900c29ad16091d744b
+Filename: pool/main/u/utile-grub-theme/utile-grub-theme_26.0~beta6_all.deb
+Size: 91000
+SHA256: 9d9161b5b7b81f0f4ab73d6009513da9929eafec1a216649e3858b839905072b
+SHA1: f9d1038e1322075e9f64bf598f505ae9ff6f4412
+MD5sum: 8a5ecac42b9b05cdb5f0758bf1f19909
 Description: Utile OS GRUB theme and fonts
 
 Package: utile-keyring
