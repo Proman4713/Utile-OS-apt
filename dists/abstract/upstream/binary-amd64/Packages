@@ -68,21 +68,21 @@ Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
 Package: python-apt-common
 Source: python-apt
-Version: 3.1.0ubuntu1-1utile1
+Version: 3.1.0ubuntu1.1-1utile1
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 532
+Installed-Size: 531
 Enhances: python-apt, python3-apt
 Breaks: python-apt (<< 0.7.98+nmu1)
 Replaces: python-apt (<< 0.7.98+nmu1)
 Multi-Arch: foreign
 Priority: optional
 Section: python
-Filename: pool/upstream/p/python-apt/python-apt-common_3.1.0ubuntu1-1utile1_all.deb
-Size: 76848
-SHA256: 53c49d2cc531aebf44507194569008fd8a3075b20f795ed0d0dac12fb15d7c72
-SHA1: 64318c1a28c1e3f09db7924b00e50c898b980b6c
-MD5sum: dba31b94877587ea53dfc3da3ae0b49f
+Filename: pool/upstream/p/python-apt/python-apt-common_3.1.0ubuntu1.1-1utile1_all.deb
+Size: 76728
+SHA256: 99f58debee33d825bf3425366ea84ed8ef0e63e8cbfb81f07823420ef38546d3
+SHA1: 1a604a994d164f34a279eb56ece78a888d3bd02c
+MD5sum: 24be13af43e39bd7753439af428142a8
 Description: Python interface to libapt-pkg (locales)
  The apt_pkg Python interface will provide full access to the internal
  libapt-pkg structures allowing Python programs to easily perform a
@@ -93,19 +93,19 @@ Original-Maintainer: APT Development Team <deity@lists.debian.org>
 
 Package: python-apt-dev
 Source: python-apt
-Version: 3.1.0ubuntu1-1utile1
+Version: 3.1.0ubuntu1.1-1utile1
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 58
-Depends: python3-apt (>= 3.1.0ubuntu1-1utile1), libapt-pkg-dev (>= 0.7.10)
+Depends: python3-apt (>= 3.1.0ubuntu1.1-1utile1), libapt-pkg-dev (>= 0.7.10)
 Recommends: python3-dev
 Priority: optional
 Section: python
-Filename: pool/upstream/p/python-apt/python-apt-dev_3.1.0ubuntu1-1utile1_all.deb
-Size: 17222
-SHA256: 7e1daa7a898beb282550205477050f8f515917a96aa4d752d82314fc26b98ef9
-SHA1: 6118e598f3d47e8677ddfca4240ed5d9a6f8a50e
-MD5sum: b76f99b626b3a78a2ddb392eefff124c
+Filename: pool/upstream/p/python-apt/python-apt-dev_3.1.0ubuntu1.1-1utile1_all.deb
+Size: 17246
+SHA256: 295b0310d6878c9fee0494bab9984f30147937bf04efe001e5e608c73d3242e3
+SHA1: 478ab336b17d410ac93515cf54f3487c3d0cb688
+MD5sum: 29a31df74a45c6c0ab07666d17f6eac6
 Description: Python interface to libapt-pkg (development files)
  The apt_pkg Python interface will provide full access to the internal
  libapt-pkg structures allowing Python programs to easily perform a
@@ -117,7 +117,7 @@ Original-Maintainer: APT Development Team <deity@lists.debian.org>
 
 Package: python-apt-doc
 Source: python-apt
-Version: 3.1.0ubuntu1-1utile1
+Version: 3.1.0ubuntu1.1-1utile1
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 2391
@@ -126,11 +126,11 @@ Enhances: python-apt
 Replaces: python-apt (<< 0.7.94)
 Priority: optional
 Section: doc
-Filename: pool/upstream/p/python-apt/python-apt-doc_3.1.0ubuntu1-1utile1_all.deb
-Size: 200802
-SHA256: 3147c13c3c0c03ed56575d7e1b48c6e7ebb19c2cafb7a688ee838d82a73765ac
-SHA1: 0a74f03238866094141565ba28359936b6a2c2f4
-MD5sum: f89bb787b06f0da719311d1beee1f0a5
+Filename: pool/upstream/p/python-apt/python-apt-doc_3.1.0ubuntu1.1-1utile1_all.deb
+Size: 200838
+SHA256: 90882c1a691f4f9caea2f9eb82458ae3d1d4f63a121ba31fab70cdc51dca9a01
+SHA1: 7593b0b54865ba546f7f775d4c61cd7af0e6ce08
+MD5sum: 65e92dac5b47099e9426d57429c1ac71
 Description: Python interface to libapt-pkg (API documentation)
  The apt_pkg Python interface will provide full access to the internal
  libapt-pkg structures allowing Python programs to easily perform a
@@ -141,7 +141,7 @@ Original-Maintainer: APT Development Team <deity@lists.debian.org>
 
 Package: python3-apt
 Source: python-apt
-Version: 3.1.0ubuntu1-1utile1
+Version: 3.1.0ubuntu1.1-1utile1
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 694
@@ -153,11 +153,11 @@ Replaces: python-apt (<< 0.7.98+nmu1)
 Multi-Arch: allowed
 Priority: optional
 Section: python
-Filename: pool/upstream/p/python-apt/python3-apt_3.1.0ubuntu1-1utile1_amd64.deb
-Size: 169504
-SHA256: 57eca7dd57b4be8afa4845aab4b1ea2fc7fbdd542d4639345a669691f0869220
-SHA1: 8d9248c1628dcd0b2c18349fe664b2ad33549ddc
-MD5sum: 45e783e812e60bc68fcc589b0320494b
+Filename: pool/upstream/p/python-apt/python3-apt_3.1.0ubuntu1.1-1utile1_amd64.deb
+Size: 169508
+SHA256: 251cfb368df1895adec46633ffebe1b7ab80c977d0474a949a86297880b5a9aa
+SHA1: 144c92fc15e02e6de50dabc3e754d7d30f9e8811
+MD5sum: 6849fa4856939bd5e0df09102f8e856e
 Description: Python 3 interface to libapt-pkg
  The apt_pkg Python 3 interface will provide full access to the internal
  libapt-pkg structures allowing Python 3 programs to easily perform a
