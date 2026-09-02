@@ -14,21 +14,21 @@ MD5sum: 4b31a0672b9744e07a34182a0a8d4e22
 Description: A simple C utility that creates a template GNOME shell extension or GTK4 application
 
 Package: utile-calamares-settings
-Version: 2-1
+Version: 3
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 2153
-Depends: calamares-settings-ubuntu-common (>= 2-1)
+Installed-Size: 2820
+Depends: calamares-settings-ubuntu-common (>= 3)
 Conflicts: calamares-settings-ubuntu-flavor
 Provides: calamares-settings-ubuntu-flavor
 Homepage: https://github.com/Proman4713/utile-calamares-settings
 Priority: optional
 Section: devel
-Filename: pool/main/u/utile-calamares-settings/utile-calamares-settings_2-1_all.deb
-Size: 1289046
-SHA256: 9dc760093897855ba43791904f9648ad97e79ad50dfaed0d7060a4a7f1f4be06
-SHA1: cb91910c2026056127bb1796ebe821d2d4ab903c
-MD5sum: d2006e66bd82ed427c0d09fd56008778
+Filename: pool/main/u/utile-calamares-settings/utile-calamares-settings_3_all.deb
+Size: 1471494
+SHA256: d66bec7e9913c87bad9e28b2ff500156f19feceeab2778e26afa33cf93f2e0f6
+SHA1: 973135e5d3e9c9ed2ba75ea2e63992518ad1f66b
+MD5sum: 7e7e4000818f6ca2e78f4d5d31b1c647
 Description: Utile OS Calamares Settings and Branding
  This package contains the Calamares settings and branding for Utile OS.
  As part of the branding the installer slideshow is contained within.
