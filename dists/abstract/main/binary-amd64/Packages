@@ -36,33 +36,33 @@ Description: Utile OS Calamares Settings and Branding
  GNOME desktop environment.
 
 Package: utile-desktop
-Version: 26.0
+Version: 26.0.1
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Installed-Size: 12
-Depends: utile-keyring, utile-gnome-shell-extensions, utile-gnome-defaults, utile-wallpapers, base-files, utile-grub-theme, nala, fastfetch
+Depends: base-files, fastfetch, nala, utile-gnome-defaults, utile-gnome-shell-extensions, utile-grub-theme, utile-keyring, utile-music, utile-wallpapers
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-desktop/utile-desktop_26.0_all.deb
-Size: 2444
-SHA256: 969d7021ff173324ff24bf0844b820c591d70358db87b41f6e8e85dcf87b9afa
-SHA1: e043886126941c6bbdd4ad97e0dcc5b8f8b8d367
-MD5sum: b6f84be634525d7437f837e26ece5f95
+Filename: pool/main/u/utile-desktop/utile-desktop_26.0.1_all.deb
+Size: 2478
+SHA256: 2c33bde1669bb89e3764ee2e5b29513f924406e4cf6cba5dc623d4106870f9c1
+SHA1: edc8171b790499ab2b813d32ad449f88dd1020d5
+MD5sum: 8290eaad658575dcd8d8bdd81698d1ea
 Description: Utile Desktop metapackage
 
 Package: utile-gnome-defaults
-Version: 26.0-2
+Version: 26.0.3
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
 Installed-Size: 32
 Depends: gnome-shell
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0-2_all.deb
-Size: 6898
-SHA256: 5cce04550668d625702478d60d08bc0adcb4f7318b5130fb0754c4326fc32dcf
-SHA1: 873076d27a38f7028df0308ed1e86b46d70f1e09
-MD5sum: 72c56ea744e0ea809ebc59107893ccda
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0.3_all.deb
+Size: 6946
+SHA256: dc8a1904118e2648b06ca891245996b6dc0deed17b01d9b8d76834400e5b10f2
+SHA1: 059f1a7b37e4a1a7a20c0717e2b21a87b846e0ec
+MD5sum: 4963fdb4a3ed17cebae0902baa134c49
 Description: Utile OS Default GNOME Configurations
 
 Package: utile-gnome-shell-extensions
@@ -110,35 +110,35 @@ MD5sum: a664f6a5cef08ff876c97c653e674154
 Description: GnuPG keys of the Utile archive
 
 Package: utile-music
-Version: 1.0.2
+Version: 1.1.1
 Architecture: amd64
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 990
+Installed-Size: 1057
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.6~beta), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-4-1 (>= 4.12.0), libpango-1.0-0 (>= 1.20.0)
 Homepage: https://github.com/Proman4713/Utile-Music
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-music/utile-music_1.0.2_amd64.deb
-Size: 266270
-SHA256: a5b101d99dc2ef0fc22fcf5328510cae11e609c886c237aeb369780f67ebebd5
-SHA1: 50845cb7a5f18c1f61b0969863cd14ad7b8ce0c7
-MD5sum: ac784b3184b513dec9419a309f692063
+Filename: pool/main/u/utile-music/utile-music_1.1.1_amd64.deb
+Size: 274384
+SHA256: a1afad5fc7d16524fe14c83fedb9ceb161f99bb8d12972c48a5cf32fc19206ad
+SHA1: 1331ef8048f896454bf38939a099c4b4162c5eb0
+MD5sum: 09070539b1daee2647fa0c4ef735bd7f
 Description: Utile Music is an elegant music player for Linux designed for Utile OS
 
 Package: utile-wallpapers
-Version: 26.0~beta7
+Version: 26.0.0
 Architecture: amd64
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 23841
+Installed-Size: 23860
 Conflicts: ubuntu-wallpapers
 Replaces: ubuntu-wallpapers
 Provides: ubuntu-wallpapers
 Priority: optional
 Section: graphics
-Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.0~beta7_amd64.deb
-Size: 24368906
-SHA256: 9e6c800b89bdb867ff28fb225eee41e2908f3748a33a733704a24bc2146bc7b0
-SHA1: 1d46255348a727164296da8b4d66d21815805dc1
-MD5sum: 10fa1c536ab2f8b2aa741f76008af364
+Filename: pool/main/u/utile-wallpapers/utile-wallpapers_26.0.0_amd64.deb
+Size: 24377294
+SHA256: ad2b869ff99f5071837f9dc56ba30d65555bd177fe0ae7e1bf72e28bf7e0dcdb
+SHA1: 408ae9b51bd4fb89ac73fc41c277ba4c9c92d10f
+MD5sum: fee32f6b0cfd32fe490d0a18e8bf6b5a
 Description: Wallpaper configuration for Utile OS 26 Abstract Assembly
 
