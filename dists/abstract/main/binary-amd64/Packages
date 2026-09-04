@@ -110,19 +110,19 @@ MD5sum: a664f6a5cef08ff876c97c653e674154
 Description: GnuPG keys of the Utile archive
 
 Package: utile-music
-Version: 1.1.1
+Version: 1.1.2
 Architecture: amd64
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 1057
+Installed-Size: 1058
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.6~beta), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-4-1 (>= 4.12.0), libpango-1.0-0 (>= 1.20.0)
 Homepage: https://github.com/Proman4713/Utile-Music
 Priority: optional
 Section: gnome
-Filename: pool/main/u/utile-music/utile-music_1.1.1_amd64.deb
-Size: 274384
-SHA256: a1afad5fc7d16524fe14c83fedb9ceb161f99bb8d12972c48a5cf32fc19206ad
-SHA1: 1331ef8048f896454bf38939a099c4b4162c5eb0
-MD5sum: 09070539b1daee2647fa0c4ef735bd7f
+Filename: pool/main/u/utile-music/utile-music_1.1.2_amd64.deb
+Size: 274586
+SHA256: 9cf7048abf141163862bdb318f63d2ccb0c6083b35aa38aa78d3b0fff20dd535
+SHA1: 01650b0be9abf908f44de3bdee23e7d09bf4e4a4
+MD5sum: 7d3f986a55a85183c3c531d7df2d6e59
 Description: Utile Music is an elegant music player for Linux designed for Utile OS
 
 Package: utile-wallpapers
