@@ -44,22 +44,6 @@ Description: Common Calamares Settings
  There is also a automirror Python script to set sources based on
  geolocation.
 
-Package: gapless
-Version: 4.6.2-1utile2
-Architecture: amd64
-Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 1137
-Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.6~beta), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-4-1 (>= 4.12.0), libpango-1.0-0 (>= 1.20.0)
-Homepage: https://github.com/Proman4713/Gapless
-Priority: optional
-Section: gnome
-Filename: pool/upstream/g/gapless/gapless_4.6.2-1utile2_amd64.deb
-Size: 290984
-SHA256: d9c96172607d52df9f5a11aa64aa07a3c87e96d9a4fe4a8b14c1db9eaa08aa87
-SHA1: 2f49da5fa59f4ac05fe9d33515ba5015058060c8
-MD5sum: b2fd54cb882bd429225bb56932048f74
-Description: Gapless music player for Utile OS
-
 Package: motd-news-config
 Source: base-files
 Version: 14ubuntu6utile7.5
