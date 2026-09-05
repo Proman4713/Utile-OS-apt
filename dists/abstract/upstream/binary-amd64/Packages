@@ -71,7 +71,7 @@ Source: python-apt
 Version: 3.1.0ubuntu1.1-1utile1
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 531
+Installed-Size: 527
 Enhances: python-apt, python3-apt
 Breaks: python-apt (<< 0.7.98+nmu1)
 Replaces: python-apt (<< 0.7.98+nmu1)
@@ -79,10 +79,10 @@ Multi-Arch: foreign
 Priority: optional
 Section: python
 Filename: pool/upstream/p/python-apt/python-apt-common_3.1.0ubuntu1.1-1utile1_all.deb
-Size: 76728
-SHA256: 99f58debee33d825bf3425366ea84ed8ef0e63e8cbfb81f07823420ef38546d3
-SHA1: 1a604a994d164f34a279eb56ece78a888d3bd02c
-MD5sum: 24be13af43e39bd7753439af428142a8
+Size: 72450
+SHA256: 261bcb8a80cdbbfdc3512b8f1af18e6d0772c528ee589dbf6c2fcd7668fb771d
+SHA1: 435c07b50d3ad86fcdc0efb2f0c455d14a8ee877
+MD5sum: e33448de073bf85d7690e66deba18822
 Description: Python interface to libapt-pkg (locales)
  The apt_pkg Python interface will provide full access to the internal
  libapt-pkg structures allowing Python programs to easily perform a
@@ -96,16 +96,16 @@ Source: python-apt
 Version: 3.1.0ubuntu1.1-1utile1
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 58
+Installed-Size: 54
 Depends: python3-apt (>= 3.1.0ubuntu1.1-1utile1), libapt-pkg-dev (>= 0.7.10)
 Recommends: python3-dev
 Priority: optional
 Section: python
 Filename: pool/upstream/p/python-apt/python-apt-dev_3.1.0ubuntu1.1-1utile1_all.deb
-Size: 17246
-SHA256: 295b0310d6878c9fee0494bab9984f30147937bf04efe001e5e608c73d3242e3
-SHA1: 478ab336b17d410ac93515cf54f3487c3d0cb688
-MD5sum: 29a31df74a45c6c0ab07666d17f6eac6
+Size: 12942
+SHA256: eed28af331977b0e3edcaa497aca663ded855213fc4bb9cb75c323ac25eca4d9
+SHA1: 694451c327e351cadaf898c73f6b0d6071404414
+MD5sum: 03ccb15b009e5d6fcf9b7bc068d8a328
 Description: Python interface to libapt-pkg (development files)
  The apt_pkg Python interface will provide full access to the internal
  libapt-pkg structures allowing Python programs to easily perform a
@@ -120,17 +120,17 @@ Source: python-apt
 Version: 3.1.0ubuntu1.1-1utile1
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 2391
-Depends: libjs-jquery, libjs-underscore, libjs-sphinxdoc (>= 7.2.2)
+Installed-Size: 2371
+Depends: libjs-jquery, libjs-underscore, libjs-sphinxdoc (>= 8.2)
 Enhances: python-apt
 Replaces: python-apt (<< 0.7.94)
 Priority: optional
 Section: doc
 Filename: pool/upstream/p/python-apt/python-apt-doc_3.1.0ubuntu1.1-1utile1_all.deb
-Size: 200838
-SHA256: 90882c1a691f4f9caea2f9eb82458ae3d1d4f63a121ba31fab70cdc51dca9a01
-SHA1: 7593b0b54865ba546f7f775d4c61cd7af0e6ce08
-MD5sum: 65e92dac5b47099e9426d57429c1ac71
+Size: 191396
+SHA256: 5e23fb9d9806eef9b8f8113209b08924fb4371aaecd5b8b4c5d72401a2dd1cc7
+SHA1: e844a8ccf34a29a6d736fe64bb632cf11596ee03
+MD5sum: c262ec9f2ffc2593ceed9e61af43b92d
 Description: Python interface to libapt-pkg (API documentation)
  The apt_pkg Python interface will provide full access to the internal
  libapt-pkg structures allowing Python programs to easily perform a
@@ -144,8 +144,8 @@ Source: python-apt
 Version: 3.1.0ubuntu1.1-1utile1
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 694
-Depends: python3 (<< 3.13), python3 (>= 3.12~), python3:any, libapt-pkg6.0t64 (>= 2.7.11), libc6 (>= 2.33), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), python-apt-common, distro-info-data
+Installed-Size: 686
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libapt-pkg7.0 (>= 2.9.27+exp1), libc6 (>= 2.33), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), python-apt-common, distro-info-data
 Recommends: lsb-release, iso-codes
 Suggests: python-apt-doc, apt
 Breaks: apt-xapian-index (<< 0.51~), kthresher (<= 1.4.0-1), python-apt (<< 0.7.98+nmu1)
@@ -154,10 +154,10 @@ Multi-Arch: allowed
 Priority: optional
 Section: python
 Filename: pool/upstream/p/python-apt/python3-apt_3.1.0ubuntu1.1-1utile1_amd64.deb
-Size: 169508
-SHA256: 251cfb368df1895adec46633ffebe1b7ab80c977d0474a949a86297880b5a9aa
-SHA1: 144c92fc15e02e6de50dabc3e754d7d30f9e8811
-MD5sum: 6849fa4856939bd5e0df09102f8e856e
+Size: 165518
+SHA256: 0c638309ce491a16b8c819747453e00197afa4b60f6f9f5f9ced12092ed196b7
+SHA1: eac6a5af9e1b371b64bf623377f90509b976b3ec
+MD5sum: eba14b8a2470d36a8827c52713218e5f
 Description: Python 3 interface to libapt-pkg
  The apt_pkg Python 3 interface will provide full access to the internal
  libapt-pkg structures allowing Python 3 programs to easily perform a
