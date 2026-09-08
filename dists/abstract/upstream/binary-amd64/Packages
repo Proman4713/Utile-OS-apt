@@ -44,6 +44,35 @@ Description: Common Calamares Settings
  There is also a automirror Python script to set sources based on
  geolocation.
 
+Package: gnome-initial-setup
+Version: 50.0-1utile1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3219
+Depends: gnome-settings-daemon (>= 3.24), pkexec (>= 0.103), polkitd (>= 0.103), tecla (>= 45~rc), gnome-control-center-data, systemd | systemd-standalone-sysusers | systemd-sysusers, libaccountsservice0 (>= 0.6.29), libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.34), libdrm2 (>= 2.4.3), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.31.1), libgdm1 (>= 3.8.3), libgeoclue-2-0 (>= 2.6.0), libgeocode-glib-2-0 (>= 0.99.1), libglib2.0-0t64 (>= 2.80.0), libgnome-bg-4-2t64 (>= 3.27.90), libgnome-desktop-4-2t64 (>= 3.17.92), libgnome-qr-gtk-4-0 (>= 44.5-1ubuntu1), libgtk-4-1 (>= 4.17.0), libgweather-4-0t64 (>= 4.1), libharfbuzz0b (>= 0.6.0), libibus-1.0-5 (>= 1.5.2), libinsights0 (>= 0.6.0), libjson-glib-1.0-0 (>= 1.5.2), libkrb5-3 (>= 1.8+dfsg), libnm0 (>= 1.2), libnma-gtk4-0 (>= 1.8.34), libpango-1.0-0 (>= 1.32.5), libpolkit-gobject-1-0 (>= 0.103), libpwquality1 (>= 1.1.0), libwebkitgtk-6.0-4 (>= 2.37.1)
+Recommends: accountsservice, geoclue-2.0 (>= 2.6.0), language-selector-common
+Suggests: gdm3
+Breaks: gnome-session-bin (<< 50~)
+Homepage: https://git.gnome.org/browse/gnome-initial-setup/
+Priority: optional
+Section: gnome
+Filename: pool/upstream/g/gnome-initial-setup/gnome-initial-setup_50.0-1utile1_amd64.deb
+Size: 887648
+SHA256: 4fc4a87dcaaa5a677dc3780e327866a83d777ee12c18820ec5118014f7edbbe1
+SHA1: cee0e8cf4d19e304a81996b175dbb8ece3eda941
+MD5sum: 9ad14733b332a18e589bbf8de803d6f2
+Description: Initial GNOME system setup helper
+ After acquiring or installing a new system there are a few essential things
+ to set up before use. GNOME Initial Setup aims to provide a simple, easy,
+ and safe way to prepare a new system.
+ .
+ GNOME Initial Setup runs the first time you log in to the GNOME desktop
+ and lets you easily configure your language, keyboard layout, online accounts
+ integration, and more.
+ .
+ If you want to configure these things at any other time, run the Settings app.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
 Package: motd-news-config
 Source: base-files
 Version: 14ubuntu6utile7.5
