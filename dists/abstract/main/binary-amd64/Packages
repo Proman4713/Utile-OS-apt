@@ -36,33 +36,33 @@ Description: Utile OS Calamares Settings and Branding
  GNOME desktop environment.
 
 Package: utile-desktop
-Version: 26.0.1
+Version: 26.0.2
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 12
+Installed-Size: 7
 Depends: base-files, fastfetch, nala, utile-gnome-defaults, utile-gnome-shell-extensions, utile-grub-theme, utile-keyring, utile-music, utile-wallpapers
 Priority: optional
 Section: metapackages
-Filename: pool/main/u/utile-desktop/utile-desktop_26.0.1_all.deb
-Size: 2478
-SHA256: 2c33bde1669bb89e3764ee2e5b29513f924406e4cf6cba5dc623d4106870f9c1
-SHA1: edc8171b790499ab2b813d32ad449f88dd1020d5
-MD5sum: 8290eaad658575dcd8d8bdd81698d1ea
+Filename: pool/main/u/utile-desktop/utile-desktop_26.0.2_all.deb
+Size: 1270
+SHA256: 77d272d7e21804bfcb41caf462e23bad10c3e984aa54f2b7d9cd9167609ff893
+SHA1: 2370ff0461dcd51e9d447d946febaf1b9cc3bd87
+MD5sum: f3e698d30e15a38bec4ed9dfdf9483d3
 Description: Utile Desktop metapackage
 
 Package: utile-gnome-defaults
-Version: 26.0.3
+Version: 26.0.4
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 32
+Installed-Size: 55
 Depends: gnome-shell
 Priority: optional
-Section: gnome
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0.3_all.deb
-Size: 6946
-SHA256: dc8a1904118e2648b06ca891245996b6dc0deed17b01d9b8d76834400e5b10f2
-SHA1: 059f1a7b37e4a1a7a20c0717e2b21a87b846e0ec
-MD5sum: 4963fdb4a3ed17cebae0902baa134c49
+Section: x11
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0.4_all.deb
+Size: 10966
+SHA256: a90a4e76ccdb903bc76002d010f8cd1b2643d718cc391d4f8888dd260a1185c4
+SHA1: b498c08bb00f9092859112ce47352b51c35bbce1
+MD5sum: 2972682d3bf6a5071b0d7434f8047544
 Description: Utile OS Default GNOME Configurations
 
 Package: utile-gnome-shell-extensions
