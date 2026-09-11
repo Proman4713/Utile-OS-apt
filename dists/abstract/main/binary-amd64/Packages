@@ -51,18 +51,18 @@ MD5sum: f3e698d30e15a38bec4ed9dfdf9483d3
 Description: Utile Desktop metapackage
 
 Package: utile-gnome-defaults
-Version: 26.0.12
+Version: 26.0.13
 Architecture: all
 Maintainer: Aaser Abd-el Sabour <proman4713@gmail.com>
-Installed-Size: 163
-Depends: gnome-shell
+Installed-Size: 167
+Depends: gnome-shell, pulseaudio-utils, yaru-theme-sound
 Priority: optional
 Section: x11
-Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0.12_all.deb
-Size: 26648
-SHA256: 64f4a289f242274bdb45d015c3492f1768965337531f1dc70b23e032b56d3aeb
-SHA1: 8d0c70228f44a6f2373e599398c28822aa1c87ed
-MD5sum: 8e77fd611a87db6faba76b3dae0b2574
+Filename: pool/main/u/utile-gnome-defaults/utile-gnome-defaults_26.0.13_all.deb
+Size: 26978
+SHA256: 30de471793b2283dcc14e55f35f6a8445184d45e4b80c8ce80f7d1340b149b06
+SHA1: 4a68ca559b9b23c205ec13962512b765d4699332
+MD5sum: 3d0ddb621a407e9db9394d22f53226c0
 Description: Utile OS Default GNOME Configurations
 
 Package: utile-gnome-shell-extensions
